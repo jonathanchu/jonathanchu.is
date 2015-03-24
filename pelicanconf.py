@@ -2,9 +2,11 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
+from os import environ
+
 AUTHOR = 'Jonathan Chu'
 SITENAME = 'jonathanchu.is'
-SITEURL = ''
+SITEURL = environ.get('PELICAN_SITE_URL', 'http://jonathanchu.is')
 
 PATH = 'content'
 
