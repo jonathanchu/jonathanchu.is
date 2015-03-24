@@ -10,7 +10,7 @@ SITEURL = environ.get('PELICAN_SITEURL', 'http://jonathanchu.is')
 
 PATH = 'content'
 
-TIMEZONE = 'US/Eastern'
+TIMEZONE = 'America/New_York'
 
 DEFAULT_LANG = 'en'
 
