@@ -2,18 +2,6 @@ Title: Review: MacBook Air 13"
 Date: 2011-01-10 00:00
 Slug: review-macbook-air-13
 
-<section>
-</p>
-<span>Review: MacBook Air 13"</span>
-====================================
-
-</p>
-<div class="row">
-
-</p>
-<div class="span12 post">
-
-</p>
 I recently decided to purchase a MacBook Air to use as my primary
 computer, saying goodbye to my previous laptop - a 15" MacBook Pro with
 a HiRes AntiGlare display, 2.66GHz i7, 8GB RAM, and 500GB HD @ 7200RPM,
@@ -24,14 +12,11 @@ me in making this decision, as I carry my laptop with me everyday. It's
 been serving as my primary computer for the past three weeks and the
 transition has been absolutely seamless.
 
-</p>
-![MBA 1](/img/articles/L1040591.jpg)  
+![MBA 1](/img/articles/L1040591.jpg)
 
-</p>
 Hardware
 --------
 
-</p>
 The Air weighs in at about 3 lbs and is surprisingly sturdy in terms of
 build. Being a MacBook Pro user for most of my developer life, I was a
 little wary that the build quality was going to be less sturdy from what
@@ -45,24 +30,19 @@ backlit keyboard. The lack of ethernet port has never bothered me as I
 have a wireless-N network at home which offer better speeds than your
 average B/G network.
 
-</p>
-![MBA 2](/img/articles/L1040583.jpg)  
+![MBA 2](/img/articles/L1040583.jpg)
 
-</p>
 One thing that does annoy me is that the Air does not fit well on my
 [Rain Design
 mStand](http://www.amazon.com/gp/product/B000OOYECC?ie=UTF8&tag=jontourage-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=B000OOYECC).
 As you can see in the picture below, aluminum does not rest on the pads
 because of the thinness.
 
-</p>
-![MBA 3](/img/articles/L1040585.jpg)  
+![MBA 3](/img/articles/L1040585.jpg)
 
-</p>
 Performance
 -----------
 
-</p>
 Despite the fact that the Air has a far inferior processor and only half
 the amount of RAM as my previous laptop, I can honestly say that the Air
 just feels faster. Most applications launch within one second, such as
@@ -79,7 +59,6 @@ remaining - which is more than enough space left. Considering what's on
 the flash storage, it takes \~15 seconds to boot up and \~25 seconds to
 shut down.
 
-</p>
 The resolution on the Air is 1440x900, which is the same as the 15"
 MacBook Pro, but greater than the 13" MacBook Pro's 1280x800. When I'm
 at home, the Air is connected to my Apple LED Cinema Display 24" model
@@ -87,13 +66,10 @@ at home, the Air is connected to my Apple LED Cinema Display 24" model
 fit being that the MiniDisplay Port is on the right side of the laptop,
 while the power and USB are on the left.
 
-</p>
-![MBA 4](/img/articles/L1040586.jpg)  
+![MBA 4](/img/articles/L1040586.jpg)
 
-</p>
-![MBA 5](/img/articles/L1040589.jpg)  
+![MBA 5](/img/articles/L1040589.jpg)
 
-</p>
 As far as graphic intensive applications and games, I haven't tried
 playing any games or doing any video editing, but I can imagine there
 will be some limitations. I've read in several places that games such as
@@ -101,28 +77,22 @@ World of Warcraft and StarCraft II run perfectly fine on the MacBook
 Airs and may even start up faster, but the framerate is lower. This is a
 limitation I can deal with given the hardware.
 
-</p>
 ### Likes
 
-</p>
 -   Portability
 -   Boots up in about 15 seconds
 -   Almost all applications launch within 1-3 seconds
 -   Battery life upwards of 8 hours (50% screen brightness)
 
-</p>
 ### Dislikes
 
-</p>
 -   Glossy screen
 -   No backlit keyboard
 -   Not (easily) upgradable
 
-</p>
 Conclusion
 ----------
 
-</p>
 I feel like the MBA is changing the way I work and I absoutely love
 that. Now that I have a more portable laptop, I find myself working in
 places that I normally wouldn't (and didn't with my 15" MacBook Pro,
@@ -131,28 +101,4 @@ dealbreaker, I would say this isn't the laptop for you. All in all, I
 could not be happier with the Air. It's an excellent laptop and has been
 able to handle all my tasks with ease.
 
-</p>
-<p>
-
-</div>
-
-</p>
-<div class="post-date">
-
-</p>
-<span>-- Jan 10, 2011</span>
-
-<p>
-
-</div>
-
-</p>
-<p>
-
-</div>
-
-</p>
-<p>
-</section>
-</p>
-
+-- Jan 10, 2011

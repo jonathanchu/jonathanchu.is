@@ -2,18 +2,6 @@ Title: 2011 In Review
 Date: 2012-01-21 00:00
 Slug: 2011-in-review
 
-<section>
-</p>
-<span>2011 In Review</span>
-===========================
-
-</p>
-<div class="row">
-
-</p>
-<div class="span12 post">
-
-</p>
 Since it seems that everyone and their mother is doing a "year in
 review" post, I find it fitting that I be no different and write one as
 well - except it's three weeks later than everyone else. 2011 was an
@@ -21,11 +9,9 @@ exciting year for me for a variety of reasons, as I went through some
 big work and life changes, met some great new friends, and reunited with
 a few long lost ones.
 
-</p>
 Work
 ----
 
-</p>
 In February of 2011, I left my job at
 [exhibit-E](http://www.exhibit-e.com/) where I was a web developer
 making web sites for the art world. Over the past few years, I've always
@@ -40,11 +26,9 @@ the hardest part. Within a week or two, I managed to land myself a great
 gig as the lead developer for the RachaelRayShow.com...and now it was
 off to the races!
 
-</p>
 Conferences
 -----------
 
-</p>
 In March, I went to [PyCon](https://us.pycon.org) 2011 in Atlanta, GA.
 This was my first programming conference and I met some fantastically
 smart people there - some of which I'm fortunate to actually work with
@@ -54,18 +38,15 @@ still keep in contact with via email. The talks were great and the
 of the trip. I'm really looking forward to returning to PyCon again this
 year.
 
-</p>
-![Nick's new laptop](/img/articles/IMG_1116.jpg)  
+![Nick's new laptop](/img/articles/IMG_1116.jpg)
 
 *[Nick](https://twitter.com/#!/nficano) holding up his new laptop that
 we bought at a mall in Atlanta during PyCon...during iPad 2 (insanity)
 launch day!*
 
-</p>
 More Work!
 ----------
 
-</p>
 Over the next few months into the early summer, the project load at
 3atmospheres really started to pick up. I take pride in the fact that I
 never made one cold call or solicited ads for work - all the requests we
@@ -77,34 +58,27 @@ management, which I would say still is evenly split for me today. Out of
 necessity for a meeting spot, we bought some seats at [General
 Assembly](https://generalassemb.ly/) where we currently work.
 
-</p>
 On a personal note, I got engaged at the end of the summer to my lovely
 girlfriend of over four years,
 [Patricia](http://patriciaandjonathan.com/), which easily made 2011 the
 best year of my life thus far.
 
-</p>
 More Conferences!
 -----------------
 
-</p>
 In September, I was fortunate enough to get to go to three conferences:
 
-</p>
 -   [DjangoCon](http://djangocon.us/) (Portland)
 -   PyGotham (NYC)
 -   [Strata Conference](http://strataconf.com/) (NYC)
 
-</p>
 And for the rest of the fall season into winter, it was just work, work,
 and more work - literally every free hour I had was devoted to meeting
 the deadlines that were set at the end of the year.
 
-</p>
 Let's Wrap It Up...
 -------------------
 
-</p>
 2011 was a great year and I've never worked harder, been more tired,
 and, at the same time, had as much fun as I've ever had in my
 professional career. I am so lucky to have gotten to meet and work with
@@ -122,28 +96,4 @@ a second. I get to program in languages and frameworks of my choosing
 [me](https://twitter.com/#!/ginlane). Here's to a great 2011 and an even
 better 2012!
 
-</p>
-<p>
-
-</div>
-
-</p>
-<div class="post-date">
-
-</p>
-<span>-- Jan 21, 2012</span>
-
-<p>
-
-</div>
-
-</p>
-<p>
-
-</div>
-
-</p>
-<p>
-</section>
-</p>
-
+-- Jan 21, 2012

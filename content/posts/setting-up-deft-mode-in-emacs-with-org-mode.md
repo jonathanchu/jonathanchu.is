@@ -2,18 +2,6 @@ Title: Setting Up Deft Mode in Emacs with Org-Mode
 Date: 2013-08-15 00:00
 Slug: setting-up-deft-mode-in-emacs-with-org-mode
 
-<section>
-</p>
-<span>Setting Up Deft Mode in Emacs with Org-Mode</span>
-========================================================
-
-</p>
-<div class="row">
-
-</p>
-<div class="span12 post">
-
-</p>
 I've been a big fan of [Notational Velocity](http://notational.net/) for
 quite a few years now - and more recently,
 [nValt](http://brettterpstra.com/projects/nvalt/) which is a popular
@@ -27,7 +15,6 @@ search. As for mobile, I used [Simplenote](http://simplenote.com/) to
 view my notes via Dropbox, and it made taking notes during programming
 meetups or business meetings even easier. Life is good!
 
-</p>
 However, over the past year, as I found myself coding more and more in
 my text editor of choice, Emacs - the more I found myself wanting
 something that didn't seem so disconnected from where I do most of my
@@ -43,11 +30,9 @@ org-mode for sporadic notes. Now, I have the power of org-mode with
 Emacs in a Notational Velocity-like buffer with Deft. The rest of the
 article will be outlining how I set it up in my Emacs config.
 
-</p>
 Setting up Deft
 ---------------
 
-</p>
 First, go grab [deft.el](http://jblevins.org/projects/deft/deft.el) and
 make sure it is available in your Emacs config (i.e. -
 \~/.emacs/vendor/deft.el path). You can grab it
@@ -56,110 +41,66 @@ from my [Emacs
 config](https://github.com/jonathanchu/emacs/blob/master/vendor/deft.el),
 which is the original unmodified file.
 
-</p>
 Once `deft.el` is on your Emacs load path, you'll need to tell Emacs to
 use Deft. Put the following anywhere in your config (I like to keep
 `modes` separated in it's own `modes.el` file that gets loaded on
 initialization):
 
-</p>
     (require 'deft)
 
-</p>
 Since I use Org-Mode, I want `*.org` files to be recognized by the Deft
 buffer, so let's set the `deft-extension` to "org". I believe the
 default file type that Deft will look for is "txt", so omit this part or
 add in "txt" if you want to use plain text files.
 
-</p>
     (setq deft-extension "org")
 
-</p>
 And again, since I'm using org-mode with Deft, let's set the
 `deft-text-mode` appropriately to use org-mode:
 
-</p>
     (setq deft-text-mode 'org-mode)
 
-</p>
 Next, we need to tell Deft where to find all of my current org-mode
 files. In my case, I like to keep all my org-mode files in Dropbox, so
 that path would be `~/Dropbox/org` for me. You should change this path
 to wherever you keep your files.
 
-</p>
     (setq deft-directory "~/Dropbox/org")
 
-</p>
 Finally, the last bit of customization is to tell Deft to use the
 filename as a title. By default, Deft will use the first line of the
 file as the filename. In my note taking preference, I normally don't
 lead off a note with the title of the file (it's usually a date like
 "2013-08-15" if it's a meeting), so I switched on the trigger for this:
 
-</p>
     (setq deft-use-filename-as-title t)
 
-</p>
 Putting it all together, and you have this in its entirety:
 
-</p>
     ;; deft(require 'deft)(setq deft-extension "org")(setq deft-directory "~/Dropbox/org")(setq deft-text-mode 'org-mode)(setq deft-use-filename-as-title t)
 
-</p>
 Using Deft
 ----------
 
-</p>
 To enter the Deft buffer, simply do:
 
-</p>
     m-x deft ENTER
 
-</p>
 And you should see the Deft buffer like so, with all of your org-files
 (yes, I know - nothing is blurred out...I got nothing to hide :P ):
 
-</p>
 ![Deft buffer
 screenshot](http://cl.ly/image/3r06392e2r3B/Screen%20Shot%202013-08-15%20at%202.42.37%20AM.png)
 
-</p>
 Start typing and you'll see the list of notes filter out the results
 that do not match, just like Notational Velocity. Hit ENTER to open the
 note in a new buffer.
 
-</p>
 ![Deft filter
 screenshot](http://cl.ly/image/1n1S41400T16/Screen%20Shot%202013-08-15%20at%202.43.03%20AM.png)
 
-</p>
 And there you have it! Much appreciation and thanks goes to [Jason
 Blevins](http://jblevins.org/) for this awesome mode that has
 effectively streamlined my coding and note-taking all in Emacs!
 
-</p>
-<p>
-
-</div>
-
-</p>
-<div class="post-date">
-
-</p>
-<span>-- Aug 15, 2013</span>
-
-<p>
-
-</div>
-
-</p>
-<p>
-
-</div>
-
-</p>
-<p>
-</section>
-</p>
-
+-- Aug 15, 2013
