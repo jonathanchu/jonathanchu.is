@@ -2,18 +2,6 @@ Title: Keyboards
 Date: 2014-04-07 00:00
 Slug: keyboards
 
-<section>
-</p>
-<span>Keyboards</span>
-======================
-
-</p>
-<div class="row">
-
-</p>
-<div class="span12 post">
-
-</p>
 I've tried out a number of keyboards in the past year in an attempt to
 move away from my beloved, but aging, [Microsoft Natural Ergonomic
 Keyboard
@@ -38,31 +26,31 @@ split keyboard layout, cushioned wrist rests built right into it, and a
 nominal price tag, this easily become my main keyboard. Here's my quick
 breakdown of the MS Natural 4000:
 
-</p>
+
 [Microsoft Natural Ergonomic Keyboard
 4000](http://www.amazon.com/Microsoft-Natural-Ergonomic-Keyboard-4000/dp/B000A6PPOK)
 (\*stock photo)
 
-</p>
+
 [![Microsoft Natural Ergonomic Keyboard
 4000](/img/articles/microsoft-natural-4000.jpg)](/img/articles/microsoft-natural-4000.jpg)
 
-</p>
+
 -   Pros:
 
-    </p>
+
     -   Comfortable wrist rests
     -   Generally sane layout, number pad, and function keys - although
         I don't use many of them in daily use
     -   One of the lower priced keyboards out there
 -   Cons:
 
-    </p>
+
     -   Lack of good key switches
     -   Not form factor - it's a big keyboard and takes up more room
         than your standard keyboard with the wrist rests
 
-</p>
+
 The next keyboard I tried out was a [Das Ultimate
 S](http://www.daskeyboard.com/model-s-ultimate/) and it was my first
 experience with a keyboard that had *real* switches. I got mine with MX
@@ -73,28 +61,22 @@ with it as it was a bit too loud for my wife since we lived in a one
 bedroom apartment together in NYC and the clickity-clack would interrupt
 her shows.
 
-</p>
 [Das Ultimate S](http://www.daskeyboard.com/model-s-ultimate/) (\*stock
 photo)
 
-</p>
 [![Das Ultimate
 S](/img/articles/das-ultimate-s.jpg)](/img/articles/das-ultimate-s.jpg)
 
-</p>
 -   Pros:
 
-    </p>
     -   MX Blue switches, although I saw you can get in MX Brown now (a
         little quieter) from their website
 -   Cons:
 
-    </p>
     -   Hard to keep clean with glossy polished surface. I found this
         quite annoying actually, especially with two cats, it made the
         keyboard look dirty and it smudged easily.
 
-</p>
 The next keyboard on my list was the [Kinesis
 Maxim](http://www.kinesis-ergo.com/shop/maxim-for-pc/). I've heard good
 things about Kinesis from other developers and decided to give them a
@@ -105,25 +87,20 @@ left side was smaller than a normal keyboard's, which made hitting it
 (Command key for you Mac guys) a bit difficult. As an Emacs user, I
 found this even more annoying as this led to lots of simple errors.
 
-</p>
 [Kinesis Maxim](http://www.kinesis-ergo.com/shop/maxim-for-pc/) (\*stock
 photo)
 
-</p>
 [![Kinesis
 Maxim](/img/articles/kinesis-maxim.jpg)](/img/articles/kinesis-maxim.jpg)
 
-</p>
 -   Pros:
 
-    </p>
     -   Adjustable split keyboard layout
     -   Comfortable wrist rests with sticker pads included - comparable
         to the Microsoft 4000 on comfort level
     -   Decent key switches
 -   Cons:
 
-    </p>
     -   Adjustable split gears seemed a bit wonky
     -   Did not like the layout for the control and alt keys
     -   PGUP/PGDOWN, Windows key is in a new column on left side, wtf?!
@@ -131,7 +108,6 @@ Maxim](/img/articles/kinesis-maxim.jpg)](/img/articles/kinesis-maxim.jpg)
         command and option key was very small compared to normal alt and
         Windows key
 
-</p>
 Microsoft came out with a new ergonomic keyboard recently I was pretty
 excited to give it a try, being how much I liked their previous
 ergonomic keyboard. The [Microsoft Sculpt
@@ -141,18 +117,14 @@ than 2x the cost to be accurate, but I still gave it a shot. It felt
 pretty natural to me for the split layout and they added a few other
 things to make it more "up-to-date".
 
-</p>
 [Microsoft Sculpt
 Ergonomic](http://www.amazon.com/Microsoft-Sculpt-Ergonomic-Desktop-L5V-00001/dp/B00CYX54C0)
 
-</p>
 [![Microsoft Sculpt
 Ergonomic](/img/articles/microsoft-sculpt-ergonomic.jpg)](/img/articles/microsoft-sculpt-ergonomic.jpg)
 
-</p>
 -   Pros:
 
-    </p>
     -   Wireless
     -   Split keyboard layout
     -   Comfortable wrist rests
@@ -162,12 +134,10 @@ Ergonomic](/img/articles/microsoft-sculpt-ergonomic.jpg)](/img/articles/microsof
         keyboard more form factor
 -   Cons:
 
-    </p>
     -   Didn't like the chiclet-style keys
     -   They don't sell the keyboard separately (as of this writing), so
         it comes with the mouse too, and the mouse isn't that great
 
-</p>
 I used the Sculpt for quite a few months, until I started to miss *real*
 switches, thus prompted my keyboard switch yet again. This time I went
 back to a familiar brand, Kinesis, but tried the
@@ -180,30 +150,25 @@ overcome. I'm not a super fast typer, but my speeds range in the 70-80
 WPM range with a regular layout keyboard. Using the Advantage, I was
 down to 30-40 WPM with about 1-2 errors.
 
-</p>
 [Kinesis
 Advantage](https://www.kinesis-ergo.com/shop/advantage-for-pc-mac/)
 
-</p>
 [![Kinesis Advantage
-Full](/img/articles/kinesis-advantage.jpg)](/img/articles/kinesis-advantage.jpg)  
+Full](/img/articles/kinesis-advantage.jpg)](/img/articles/kinesis-advantage.jpg)
 
 [![Kinesis Advantage Left
-Side](/img/articles/kinesis-advantage-left-side.jpg)](/img/articles/kinesis-advantage-left-side.jpg)  
+Side](/img/articles/kinesis-advantage-left-side.jpg)](/img/articles/kinesis-advantage-left-side.jpg)
 
 [![Kinesis Advantage Right
 Side](/img/articles/kinesis-advantage-right-side.jpg)](/img/articles/kinesis-advantage-right-side.jpg)
 
-</p>
 -   Pros:
 
-    </p>
     -   Split keyboard
     -   All crucial and most used keys moved to thumb, your strongest
         finger, to reduce fatigue
 -   Cons:
 
-    </p>
     -   Big learning curve, the shape and slope of keys slowed me down
         (show typing tests?)
     -   I found switching back to a regular keyboard layout (like your
@@ -213,36 +178,29 @@ Side](/img/articles/kinesis-advantage-right-side.jpg)](/img/articles/kinesis-adv
     -   It's a big and heavy keyboard, even for my tastes, so this is
         not a good choice if you're limited on desk space
 
-</p>
 Finally, this brought me to try out the [Happy Hacking Professional
 2](https://elitekeyboards.com/products.php?sub=pfu_keyboards,hhkbpro2&pid=pdkb400w).
 What I liked most about this was that the control key was already mapped
 to the caps lock, which is something I always re-map on a keyboard I use
 anyway.
 
-</p>
 [Happy Hacking Professional
 2](https://elitekeyboards.com/products.php?sub=pfu_keyboards,hhkbpro2&pid=pdkb400w)
 
-</p>
 [![Happy Hacking Professional
 2](/img/articles/happy-hacking-pro-2.jpg)](/img/articles/happy-hacking-pro-2.jpg)
 
-</p>
 -   Pros:
 
-    </p>
     -   Topre key switches
     -   Small form factor
     -   Control key already where I would normally map it
 -   Cons:
 
-    </p>
     -   Hated where the delete key is
     -   Also hated where the function key is, didn't seem logical if you
         had to press the function to use any function keys.
 
-</p>
 In the end, it's a great keyboard all around, but the delete key
 placement didn't jive with me and is the only reason I am not using this
 keyboard as my main. Overall, I think I will use this when I travel
@@ -255,18 +213,14 @@ anymore as I learned to help my wrist pains over the years (stretches
 before day begins, once at lunchtime, and small breaks on the hour to
 shake out hands.)
 
-</p>
 [Realforce
 104U](https://elitekeyboards.com/products.php?sub=topre_keyboards,rf104&pid=xf01t0)
 
-</p>
 [![Realforce
 104U](/img/articles/realforce-104u.jpg)](/img/articles/realforce-104u.jpg)
 
-</p>
 -   Pros:
 
-    </p>
     -   Variable weighted keys is the biggest win for me. 45g for inner
         keys, 35g on outside
         [pic](https://elitekeyboards.com/proddata/images/th/104u_ergochart_1000_th0x0.png)
@@ -280,13 +234,11 @@ shake out hands.)
         like
 -   Cons:
 
-    </p>
     -   The lower weighted keys on the outside aaaaaare more prone to
         typpppppppppos if you're one that rests your fingers on the home
         row like me sometimes ;)
     -   Price
 
-</p>
 After trying all these keyboards, and consequently going through the
 return process for most of them, I can happily recommend the Realforce
 104U to anyone looking for a professional keyboard with good switches.
@@ -297,28 +249,5 @@ learning curve, but a higher price tag for what you would expect a
 high-end keyboard. If you don't have the space for a full-sized
 keyboard, I would recommend a Happy Hacking Professional 2.
 
-</p>
-<p>
 
-</div>
-
-</p>
-<div class="post-date">
-
-</p>
-<span>-- Apr 07, 2014</span>
-
-<p>
-
-</div>
-
-</p>
-<p>
-
-</div>
-
-</p>
-<p>
-</section>
-</p>
-
+-- Apr 07, 2014
