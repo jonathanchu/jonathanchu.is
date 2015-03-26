@@ -1,6 +1,9 @@
 Title: Org-Mode and MobileOrg Installation and Config
 Date: 2013-07-10 00:00
 Slug: org-mode-and-mobileorg-installation-and-config
+Category: emacs
+Tags: mobileorg, org-mode, emacs
+
 
 ![MobileOrg](/img/articles/mobileorg_placeit.png)
 

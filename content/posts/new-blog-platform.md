@@ -1,6 +1,9 @@
 Title: New Blog Platform
 Date: 2011-01-18 00:00
 Slug: new-blog-platform
+Category: Python
+Tags: python
+
 
 After a long blogging hiatus, I recently decided to switch over my
 custom Django blog to a static site generator, following the trend that

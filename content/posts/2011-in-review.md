@@ -1,6 +1,7 @@
 Title: 2011 In Review
 Date: 2012-01-21 00:00
 Slug: 2011-in-review
+Category: Miscellaneous
 
 Since it seems that everyone and their mother is doing a "year in
 review" post, I find it fitting that I be no different and write one as

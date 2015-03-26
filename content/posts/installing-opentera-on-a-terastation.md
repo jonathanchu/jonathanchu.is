@@ -1,6 +1,8 @@
 Title: Installing OpenTera on a TeraStation
 Date: 2012-05-27 00:00
 Slug: installing-opentera-on-a-terastation
+Category: Miscelleanous
+
 
 I have a Buffalo TeraStation that I bought in 2006 to store all my big
 media files. Through the years it has served me well, although with Mac

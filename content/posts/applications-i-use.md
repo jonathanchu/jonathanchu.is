@@ -1,6 +1,7 @@
 Title: Applications I Use
 Date: 2012-03-02 00:00
 Slug: applications-i-use
+Category: Miscellaneous
 
 About two years ago, I bought my dad a MacBook Pro as a gift and with
 him being a long-time Windows user, the transition wasn't seemless to
