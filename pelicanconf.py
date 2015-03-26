@@ -6,7 +6,7 @@ from os import environ
 
 AUTHOR = 'Jonathan Chu'
 SITENAME = 'jonathanchu.is'
-EMAIL = ''
+EMAIL = 'me@jonathanchu.is'
 SITEURL = environ.get('PELICAN_SITEURL', 'http://jonathanchu.is')
 
 PATH = 'content'
