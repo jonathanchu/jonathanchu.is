@@ -1,3 +1,4 @@
+Fabric==1.10.1
 Markdown==2.6.1
 pelican==3.5.0
 feedparser==5.1.3
