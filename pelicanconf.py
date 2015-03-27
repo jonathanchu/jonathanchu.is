@@ -35,4 +35,9 @@ PAGE_SAVE_AS = '{slug}/index.html'
 FEED_RSS = 'posts/feed/latest'
 FEED_ATOM = 'posts/feed/latest.atom'
 
+PLUGIN_PATHS = ('plugins',)
+PLUGINS = ['assets']
+
+ASSET_SOURCE_PATHS = ('static',)
+
 MIXPANEL = ''
