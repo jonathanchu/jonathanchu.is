@@ -3,3 +3,4 @@
 *.pyc
 output/
 /cache
+node_modules/
