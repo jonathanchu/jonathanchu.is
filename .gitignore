@@ -2,5 +2,5 @@
 .direnv
 *.pyc
 output/
-/cache
+cache/
 node_modules/
