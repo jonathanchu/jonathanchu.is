@@ -36,7 +36,7 @@ breakdown of the MS Natural 4000:
 
 
 [![Microsoft Natural Ergonomic Keyboard
-4000](/img/articles/microsoft-natural-4000.jpg)](/img/articles/microsoft-natural-4000.jpg)
+4000](/images/microsoft-natural-4000.jpg)](/images/microsoft-natural-4000.jpg)
 
 
 -   Pros:
@@ -68,7 +68,7 @@ her shows.
 photo)
 
 [![Das Ultimate
-S](/img/articles/das-ultimate-s.jpg)](/img/articles/das-ultimate-s.jpg)
+S](/images/das-ultimate-s.jpg)](/images/das-ultimate-s.jpg)
 
 -   Pros:
 
@@ -94,7 +94,7 @@ found this even more annoying as this led to lots of simple errors.
 photo)
 
 [![Kinesis
-Maxim](/img/articles/kinesis-maxim.jpg)](/img/articles/kinesis-maxim.jpg)
+Maxim](/images/kinesis-maxim.jpg)](/images/kinesis-maxim.jpg)
 
 -   Pros:
 
@@ -124,7 +124,7 @@ things to make it more "up-to-date".
 Ergonomic](http://www.amazon.com/Microsoft-Sculpt-Ergonomic-Desktop-L5V-00001/dp/B00CYX54C0)
 
 [![Microsoft Sculpt
-Ergonomic](/img/articles/microsoft-sculpt-ergonomic.jpg)](/img/articles/microsoft-sculpt-ergonomic.jpg)
+Ergonomic](/images/microsoft-sculpt-ergonomic.jpg)](/images/microsoft-sculpt-ergonomic.jpg)
 
 -   Pros:
 
@@ -157,13 +157,13 @@ down to 30-40 WPM with about 1-2 errors.
 Advantage](https://www.kinesis-ergo.com/shop/advantage-for-pc-mac/)
 
 [![Kinesis Advantage
-Full](/img/articles/kinesis-advantage.jpg)](/img/articles/kinesis-advantage.jpg)
+Full](/images/kinesis-advantage.jpg)](/images/kinesis-advantage.jpg)
 
 [![Kinesis Advantage Left
-Side](/img/articles/kinesis-advantage-left-side.jpg)](/img/articles/kinesis-advantage-left-side.jpg)
+Side](/images/kinesis-advantage-left-side.jpg)](/images/kinesis-advantage-left-side.jpg)
 
 [![Kinesis Advantage Right
-Side](/img/articles/kinesis-advantage-right-side.jpg)](/img/articles/kinesis-advantage-right-side.jpg)
+Side](/images/kinesis-advantage-right-side.jpg)](/images/kinesis-advantage-right-side.jpg)
 
 -   Pros:
 
@@ -191,7 +191,7 @@ anyway.
 2](https://elitekeyboards.com/products.php?sub=pfu_keyboards,hhkbpro2&pid=pdkb400w)
 
 [![Happy Hacking Professional
-2](/img/articles/happy-hacking-pro-2.jpg)](/img/articles/happy-hacking-pro-2.jpg)
+2](/images/happy-hacking-pro-2.jpg)](/images/happy-hacking-pro-2.jpg)
 
 -   Pros:
 
@@ -220,7 +220,7 @@ shake out hands.)
 104U](https://elitekeyboards.com/products.php?sub=topre_keyboards,rf104&pid=xf01t0)
 
 [![Realforce
-104U](/img/articles/realforce-104u.jpg)](/img/articles/realforce-104u.jpg)
+104U](/images/realforce-104u.jpg)](/images/realforce-104u.jpg)
 
 -   Pros:
 

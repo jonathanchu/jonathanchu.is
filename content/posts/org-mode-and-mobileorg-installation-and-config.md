@@ -5,7 +5,7 @@ Category: emacs
 Tags: mobileorg, org-mode, emacs
 
 
-![MobileOrg](/img/articles/mobileorg_placeit.png)
+![MobileOrg](/images/mobileorg_placeit.png)
 
 Intro
 -----

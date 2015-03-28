@@ -39,7 +39,7 @@ still keep in contact with via email. The talks were great and the
 of the trip. I'm really looking forward to returning to PyCon again this
 year.
 
-![Nick's new laptop](/img/articles/IMG_1116.jpg)
+![Nick's new laptop](/images/IMG_1116.jpg)
 
 *[Nick](https://twitter.com/#!/nficano) holding up his new laptop that
 we bought at a mall in Atlanta during PyCon...during iPad 2 (insanity)

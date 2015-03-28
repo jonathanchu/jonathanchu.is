@@ -60,6 +60,6 @@ not the only one with this problem. If I missed any steps, let me know -
 good luck!
 
 ![TeraStation in
-Finder](/img/articles/terastation_finder_screenshot.png)
+Finder](/images/terastation_finder_screenshot.png)
 
 -- May 27, 2012

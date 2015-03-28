@@ -67,7 +67,7 @@ documentation. Here are some of the main features of Growl:
 The basic structure of my blog looks something like this:
 
 ![Jontourage Directory
-Structure](/img/articles/jontourage_dir_structure.png)
+Structure](/images/jontourage_dir_structure.png)
 
 -   `_hooks` contains Python scripts that extend Growl
 -   `_layout` contains the basic layouts for your site

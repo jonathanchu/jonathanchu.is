@@ -15,7 +15,7 @@ me in making this decision, as I carry my laptop with me everyday. It's
 been serving as my primary computer for the past three weeks and the
 transition has been absolutely seamless.
 
-![MBA 1](/img/articles/L1040591.jpg)
+![MBA 1](/images/L1040591.jpg)
 
 Hardware
 --------
@@ -33,7 +33,7 @@ backlit keyboard. The lack of ethernet port has never bothered me as I
 have a wireless-N network at home which offer better speeds than your
 average B/G network.
 
-![MBA 2](/img/articles/L1040583.jpg)
+![MBA 2](/images/L1040583.jpg)
 
 One thing that does annoy me is that the Air does not fit well on my
 [Rain Design
@@ -41,7 +41,7 @@ mStand](http://www.amazon.com/gp/product/B000OOYECC?ie=UTF8&tag=jontourage-20&li
 As you can see in the picture below, aluminum does not rest on the pads
 because of the thinness.
 
-![MBA 3](/img/articles/L1040585.jpg)
+![MBA 3](/images/L1040585.jpg)
 
 Performance
 -----------
@@ -69,9 +69,9 @@ at home, the Air is connected to my Apple LED Cinema Display 24" model
 fit being that the MiniDisplay Port is on the right side of the laptop,
 while the power and USB are on the left.
 
-![MBA 4](/img/articles/L1040586.jpg)
+![MBA 4](/images/L1040586.jpg)
 
-![MBA 5](/img/articles/L1040589.jpg)
+![MBA 5](/images/L1040589.jpg)
 
 As far as graphic intensive applications and games, I haven't tried
 playing any games or doing any video editing, but I can imagine there
