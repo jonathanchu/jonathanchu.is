@@ -23,7 +23,7 @@ RELATIVE_URLS = False
 POSTS_URL = 'posts/'
 POSTS_INDEX_SAVE_AS = 'posts/index.html'
 
-ARTICLE_PATHS = ('posts',)
+ARTICLE_PATHS = ['posts']
 ARTICLE_URL = 'posts/{slug}/'
 ARTICLE_SAVE_AS = 'posts/{slug}/index.html'
 
@@ -37,9 +37,9 @@ PAGE_SAVE_AS = '{slug}/index.html'
 FEED_RSS = 'posts/feed/latest'
 FEED_ATOM = 'posts/feed/latest.atom'
 
-PLUGIN_PATHS = ('plugins',)
+PLUGIN_PATHS = ['plugins']
 PLUGINS = ['assets']
 
-ASSET_SOURCE_PATHS = ('static',)
+ASSET_SOURCE_PATHS = ['static']
 
 MIXPANEL = ''
