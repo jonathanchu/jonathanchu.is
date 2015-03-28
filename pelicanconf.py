@@ -9,6 +9,8 @@ SITENAME = 'jonathanchu.is'
 EMAIL = 'me@jonathanchu.is'
 SITEURL = environ.get('PELICAN_SITEURL', 'http://jonathanchu.is')
 
+THEME = 'theme'
+
 PATH = 'content'
 
 TIMEZONE = 'America/New_York'
