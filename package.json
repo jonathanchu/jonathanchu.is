@@ -1,0 +1,10 @@
+{
+  "name": "jonathanchu.is",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jonathanchu/jonathanchu.is"
+  },
+  "dependencies": {
+    "less": "*"
+  }
+}
