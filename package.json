@@ -5,6 +5,7 @@
     "url": "https://github.com/jonathanchu/jonathanchu.is"
   },
   "dependencies": {
+    "bower": "*",
     "less": "*"
   }
 }
