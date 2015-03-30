@@ -110,5 +110,6 @@ github: publish
 setup:
 	pip install -r requirements.txt
 	npm install
+	bower install
 
 .PHONY: html help clean regenerate serve devserver publish ssh_upload rsync_upload dropbox_upload ftp_upload s3_upload cf_upload github
