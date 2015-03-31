@@ -22,38 +22,31 @@
 </head>
 
 <body id="{% block body_id %}{% endblock %}" class="{% block body_class %}{% endblock %}">
-  <header>
-    <h1><a href="{{ SITEURL }}/">{{ SITENAME }}</a></h1>
+  <header class="masthead">
+    <div class="container">
+      <a href="{{ SITEURL }}/" class="masthead-logo">{{ SITENAME }}</a>
+      <nav class="masthead-nav">
+        {% if DISPLAY_PAGES_ON_MENU %}
+          {% for p in PAGES %}
+            <a href="{{ SITEURL }}/{{ p.url }}"{% if p == page %} class="active"{% endif %}>{{ p.title }}</a>
+          {% endfor %}
+        {% endif %}
+      </nav>
+    </div>
   </header>
 
-  <nav id="menu"><ul>
-    {% for title, link in MENUITEMS %}
-      <li><a href="{{ link }}">{{ title }}</a></li>
-    {% endfor %}
-    {% if DISPLAY_PAGES_ON_MENU %}
-      {% for p in PAGES %}
-        <li{% if p == page %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ p.url }}">{{ p.title }}</a></li>
-      {% endfor %}
-    {% else %}
-      {% if DISPLAY_CATEGORIES_ON_MENU %}
-        {% for cat, null in categories %}
-          <li{% if cat == category %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ cat.url }}">{{ cat }}</a></li>
-        {% endfor %}
-      {% endif %}
-    {% endif %}
-  </ul></nav>
-
-  <section>
+  <div class="container">
     {% block content %}
     {% endblock %}
-  </section>
 
-  <footer>
-    <address id="about" class="vcard body">
-      Proudly powered by <a href="http://getpelican.com/">Pelican</a>,
-      which takes great advantage of <a href="http://python.org">Python</a>.
-    </address>
-  </footer>
+    <footer class="footer">
+      Copyright Jonathan Chu<br>
+      <address id="about" class="vcard body">
+        Proudly powered by <a href="http://getpelican.com/">Pelican</a>,
+        which takes great advantage of <a href="http://python.org">Python</a>.
+      </address>
+    </footer>
+  </div>
 
 </body>
 </html>
