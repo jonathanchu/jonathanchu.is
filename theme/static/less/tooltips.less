@@ -193,12 +193,12 @@
   }
 }
 
-@media screen and (min-width:0\0) {
-  // IE9 and IE10 rule sets go here
-  .tooltipped-multiline:after {
-    width: @multiline-max-width;
-  }
-}
+// @media screen and (min-width:0\0) {
+//   // IE9 and IE10 rule sets go here
+//   .tooltipped-multiline:after {
+//     width: @multiline-max-width;
+//   }
+// }
 
 // Sticky tooltips
 //
@@ -219,7 +219,7 @@
 // Alert tooltips
 //
 // Colors for different alert states.
-@mixin colorizeTooltip(@text-color, @background-color) {
+.colorizeTooltip(@text-color, @background-color) {
   &:after {
     color: @text-color;
     background: @background-color;

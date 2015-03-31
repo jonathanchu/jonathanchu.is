@@ -489,14 +489,14 @@ html.no-dnd-uploads {
 }
 
 .focused .drag-and-drop {
-  @extend input[type="text"]:focus;
-  box-shadow: rgba(#51a7e8, 0.5) 0 0 3px;
+  // @extend input[type="text"]:focus;
+  // box-shadow: rgba(#51a7e8, 0.5) 0 0 3px;
 }
 
 // Dropping a file on top
 .dragover textarea,
 .dragover .drag-and-drop {
-  box-shadow: rgba(#c9ff00, 1) 0 0 3px;
+  // box-shadow: rgba(#c9ff00, 1) 0 0 3px;
 }
 
 
@@ -706,7 +706,7 @@ p.explain {
 }
 
 .form-actions {
-  @include clearfix;
+  .clearfix();
 
   .btn {
     float: right;
@@ -741,7 +741,7 @@ p.explain {
 //
 // Used for example when autosaving checkboxes in settings.
 .status-indicator {
-  @include icon-bootstrap(16px);
+  .icon-bootstrap(16px);
   margin-left: 5px;
 }
 
