@@ -21,7 +21,7 @@ DEFAULT_PAGINATION = 10
 RELATIVE_URLS = False
 
 DIRECT_TEMPLATES = ('index', 'posts_index')
-PAGINATED_DIRECT_TEMPLATES = ('posts_index',)
+PAGINATED_DIRECT_TEMPLATES = ('index', 'posts_index')
 
 POSTS_URL = 'posts/'
 POSTS_INDEX_SAVE_AS = 'posts/index.html'
