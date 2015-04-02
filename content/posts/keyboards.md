@@ -34,9 +34,7 @@ breakdown of the MS Natural 4000:
 4000](http://www.amazon.com/Microsoft-Natural-Ergonomic-Keyboard-4000/dp/B000A6PPOK)
 (\*stock photo)
 
-
-[![Microsoft Natural Ergonomic Keyboard
-4000](/images/microsoft-natural-4000.jpg)](/images/microsoft-natural-4000.jpg)
+<img src="/images/microsoft-natural-4000.jpg" alt="Microsoft Natural Ergonomic Keyboard 4000" width="510px">
 
 
 -   Pros:
@@ -67,8 +65,7 @@ her shows.
 [Das Ultimate S](http://www.daskeyboard.com/model-s-ultimate/) (\*stock
 photo)
 
-[![Das Ultimate
-S](/images/das-ultimate-s.jpg)](/images/das-ultimate-s.jpg)
+<img src="/images/das-ultimate-s.jpg" atl="Das Ultimate S" width="510px">
 
 -   Pros:
 
