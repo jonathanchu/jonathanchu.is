@@ -37,19 +37,16 @@ breakdown of the MS Natural 4000:
 <img src="/images/microsoft-natural-4000.jpg" alt="Microsoft Natural Ergonomic Keyboard 4000" width="510px">
 
 
--   Pros:
+Pros:
 
+*  Comfortable wrist rests
+* Generally sane layout, number pad, and function keys - although I don't use many of them in daily use
+* One of the lower priced keyboards out there
 
-    -   Comfortable wrist rests
-    -   Generally sane layout, number pad, and function keys - although
-        I don't use many of them in daily use
-    -   One of the lower priced keyboards out there
--   Cons:
+Cons:
 
-
-    -   Lack of good key switches
-    -   Not form factor - it's a big keyboard and takes up more room
-        than your standard keyboard with the wrist rests
+* Lack of good key switches
+* Not form factor - it's a big keyboard and takes up more room than your standard keyboard with the wrist rests
 
 
 The next keyboard I tried out was a [Das Ultimate
