@@ -314,3 +314,13 @@ body {
   max-width: 100%; // Part 1: Set a maximum relative to the parent
   height: auto; // Part 2: Scale the height according to the width, otherwise you get stretching
 }
+
+// Override the default layout to make it stack
+.page-layout {
+  @media (max-width: 34em) {
+    > .column {
+      float: none;
+      width: 100%;
+    }
+  }
+}
