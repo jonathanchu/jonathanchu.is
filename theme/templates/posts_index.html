@@ -4,7 +4,7 @@
 <div class="columns page-layout">
   <div class="three-fourths column">
 
-    <ul>
+    <ul class="posts-list">
       {% for article in articles_page.object_list %}
         <li>
           <article>
@@ -13,6 +13,7 @@
             </h2>
             <abbr class="published" title="{{ article.date.isoformat() }}">{{ article.locale_date }}</abbr>
             {{ article.summary }}
+            <a href="{{ SITEURL }}/{{ article.url }}">Read more &rarr;</a>
           </article>
         </li>
       {% endfor %}
