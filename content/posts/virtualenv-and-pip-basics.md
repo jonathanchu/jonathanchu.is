@@ -45,13 +45,15 @@ makes it much easier to create and start virtual environments:
 As part of the install instructions for virtualenvwrapper, you need to
 add this to your .bash\_profile
 
-    # virtualenvexport WORKON_HOME=$HOME/.virtualenvssource /Library/Frameworks/Python.framework/Versions/2.7/bin/virtualenvwrapper.sh
+    # virtualenv
+    export WORKON_HOME=$HOME/.virtualenvs
+    source /Library/Frameworks/Python.framework/Versions/2.7/bin/virtualenvwrapper.sh
 
-> > \*Please note that this path may differ depending on what version of
-> > Python you have. Also, I like to keep all my virtualenvs in a
-> > directory called `.virtualenvs` in my home directory, but this may
-> > differ for you if you choose to keep your virtual environments in a
-> > different directory.
+> Please note that this path may differ depending on what version of
+> Python you have. Also, I like to keep all my virtualenvs in a
+> directory called `.virtualenvs` in my home directory, but this may
+> differ for you if you choose to keep your virtual environments in a
+> different directory.
 
 Make sure you source your new `.bash_profile`
 
@@ -68,7 +70,18 @@ Hellmann's
 blog](http://blog.doughellmann.com/2010/01/virtualenvwrapper-tips-and-tricks.html)
 and listed below:
 
-    # virtualenv aliases# http://blog.doughellmann.com/2010/01/virtualenvwrapper-tips-and-tricks.htmlalias v='workon'alias v.deactivate='deactivate'alias v.mk='mkvirtualenv --no-site-packages'alias v.mk_withsitepackages='mkvirtualenv'alias v.rm='rmvirtualenv'alias v.switch='workon'alias v.add2virtualenv='add2virtualenv'alias v.cdsitepackages='cdsitepackages'alias v.cd='cdvirtualenv'alias v.lssitepackages='lssitepackages'
+    # virtualenv aliases
+    # http://blog.doughellmann.com/2010/01/virtualenvwrapper-tips-and-tricks.html
+    alias v='workon'
+    alias v.deactivate='deactivate'
+    alias v.mk='mkvirtualenv --no-site-packages'
+    alias v.mk_withsitepackages='mkvirtualenv'
+    alias v.rm='rmvirtualenv'
+    alias v.switch='workon'
+    alias v.add2virtualenv='add2virtualenv'
+    alias v.cdsitepackages='cdsitepackages'
+    alias v.cd='cdvirtualenv'
+    alias v.lssitepackages='lssitepackages'
 
 This saves some keystrokes, especially since I always create new virtual
 environments with the `--no-site-packages` switch to ensure a completely
@@ -77,33 +90,59 @@ clean environment.
 To create and start a new virtual environment with `--no-site-packages`,
 enter:
 
-    $ v.mk myvirtualenvNew python executable in myvirtualenv/bin/pythonInstalling setuptools............done.(myvirtualenv) $
+    $ v.mk myvirtualenv
+    New python executable in myvirtualenv/bin/pythonInstalling setuptools............done.
+    (myvirtualenv) $
 
 This creates and virtual environment and makes it active. To deactivate
 it, you can simply type:
 
-    (myvirtualenv) $ deactivate$
+    (myvirtualenv) $ deactivate
+    $
 
 So let's go ahead and start our virtual environment once again and
 install some packages to it.
 
-    $ v myvirtualenv(myvirtualenv) $
+    $ v myvirtualenv
+    (myvirtualenv) $
 
 We're going to install Python package `Yolk` as it is a useful command
 line utility that lists the packages installed for the environment.
 
-    $ v myvirtualenv(myvirtualenv) $(myvirtualenv) $ pip install yolkDownloading/unpacking yolk  Downloading yolk-0.4.1.tar.gz (80Kb): 80Kb downloaded  Running setup.py egg_info for package yolkRequirement already satisfied (use --upgrade to upgrade): setuptools in /Users/jonathan/.virtualenvs/myvirtualenv/lib/python2.7/site-packages/setuptools-0.6c11-py2.7.egg (from yolk)Installing collected packages: yolk  Running setup.py install for yolk    Installing yolk script to /Users/jonathan/.virtualenvs/myvirtualenv/binSuccessfully installed yolkCleaning up...
+    $ v myvirtualenv
+    (myvirtualenv) $
+    (myvirtualenv) $ pip install yolk
+    Downloading/unpacking yolk
+      Downloading yolk-0.4.1.tar.gz (80Kb): 80Kb downloaded
+      Running setup.py egg_info for package yolk
+
+    Requirement already satisfied (use --upgrade to upgrade): setuptools in /Users/jonathan/.virtualenvs/myvirtualenv/lib/python2.7/site-packages/setuptools-0.6c11-py2.7.egg (from yolk)
+    Installing collected packages: yolk
+      Running setup.py install for yolk
+
+        Installing yolk script to /Users/jonathan/.virtualenvs/myvirtualenv/bin
+
+    Successfully installed yolk
+    Cleaning up...
 
 Now you can use `yolk -l` to list the packages installed for this
 virtual environment:
 
-    (myvirtualenv) $ yolk -lPython          - 2.7.1        - active development (/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/lib-dynload)pip             - 0.8.1        - activesetuptools      - 0.6c11       - activewsgiref         - 0.1.2        - active development (/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7)yolk            - 0.4.1        - active
+    (myvirtualenv) $ yolk -l
+    Python          - 2.7.1        - active development
+    (/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/lib-dynload)
+    pip             - 0.8.1        - active
+    setuptools      - 0.6c11       - active
+    wsgiref         - 0.1.2        - active development
+    (/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7)
+    yolk            - 0.4.1        - active
 
 Here is a brief one-line example showing how to create a virtualenv and
 install Django, MySQL Python, South, Python Imaging Library (PIL), and
 ImageKit using pip:
 
-    $ v.mk newdjangoenv(newdjangoenv) $ pip install django MySQL-python south pil django-imagekit
+    $ v.mk newdjangoenv
+    (newdjangoenv) $ pip install django MySQL-python south pil django-imagekit
 
 When you have your requirements installed, it's always good to take a
 snapshot of the requirements and the current versions. You can do this
@@ -122,5 +161,3 @@ applications in completely isolated environments!
 For more on pip and virtualenv, check out this great post by [Salty
 Crane](http://www.saltycrane.com/blog/2009/05/notes-using-pip-and-virtualenv-django/)
 which got me started on all this.
-
--- Feb 09, 2011
