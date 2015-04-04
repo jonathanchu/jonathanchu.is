@@ -64,15 +64,15 @@ photo)
 
 <img src="/images/das-ultimate-s.jpg" atl="Das Ultimate S" width="510px">
 
--   Pros:
+Pros:
 
-    -   MX Blue switches, although I saw you can get in MX Brown now (a
-        little quieter) from their website
--   Cons:
+* MX Blue switches, although I saw you can get in MX Brown now (a little quieter) from their website
 
-    -   Hard to keep clean with glossy polished surface. I found this
-        quite annoying actually, especially with two cats, it made the
-        keyboard look dirty and it smudged easily.
+Cons:
+
+* Hard to keep clean with glossy polished surface. I found this
+  quite annoying actually, especially with two cats, it made the
+  keyboard look dirty and it smudged easily.
 
 The next keyboard on my list was the [Kinesis
 Maxim](http://www.kinesis-ergo.com/shop/maxim-for-pc/). I've heard good
@@ -89,20 +89,19 @@ photo)
 
 <img src="/images/kinesis-maxim.jpg" atl="Kinesis Maxim" width="510px">
 
--   Pros:
+Pros:
 
-    -   Adjustable split keyboard layout
-    -   Comfortable wrist rests with sticker pads included - comparable
-        to the Microsoft 4000 on comfort level
-    -   Decent key switches
--   Cons:
+* Adjustable split keyboard layout
+* Comfortable wrist rests with sticker pads included - comparable to the Microsoft 4000 on comfort level
+* Decent key switches
 
-    -   Adjustable split gears seemed a bit wonky
-    -   Did not like the layout for the control and alt keys
-    -   PGUP/PGDOWN, Windows key is in a new column on left side, wtf?!
-    -   Alt key on left side is smaller than normal, the layout for
-        command and option key was very small compared to normal alt and
-        Windows key
+Cons:
+
+* Adjustable split gears seemed a bit wonky
+* Did not like the layout for the control and alt keys
+* PGUP/PGDOWN, Windows key is in a new column on left side, wtf?!
+* Alt key on left side is smaller than normal, the layout for command and option key was very
+  small compared to normal alt and Windows key
 
 Microsoft came out with a new ergonomic keyboard recently I was pretty
 excited to give it a try, being how much I liked their previous
@@ -118,20 +117,21 @@ Ergonomic](http://www.amazon.com/Microsoft-Sculpt-Ergonomic-Desktop-L5V-00001/dp
 
 <img src="/images/microsoft-sculpt-ergonomic.jpg" atl="Microsoft Sculpt Ergonomic" width="510px">
 
--   Pros:
+Pros:
 
-    -   Wireless
-    -   Split keyboard layout
-    -   Comfortable wrist rests
-    -   Layout very similar to 4000 with small improvements
-    -   Magnetic battery hinge, which was a nice little touch
-    -   Separate number pad so you can use it or not, making the
-        keyboard more form factor
--   Cons:
+*  Wireless
+*  Split keyboard layout
+*  Comfortable wrist rests
+*  Layout very similar to 4000 with small improvements
+*  Magnetic battery hinge, which was a nice little touch
+*  Separate number pad so you can use it or not, making the
+*  keyboard more form factor
 
-    -   Didn't like the chiclet-style keys
-    -   They don't sell the keyboard separately (as of this writing), so
-        it comes with the mouse too, and the mouse isn't that great
+Cons:
+
+* Didn't like the chiclet-style keys
+* They don't sell the keyboard separately (as of this writing), so
+  it comes with the mouse too, and the mouse isn't that great
 
 I used the Sculpt for quite a few months, until I started to miss *real*
 switches, thus prompted my keyboard switch yet again. This time I went
@@ -154,21 +154,22 @@ Advantage](https://www.kinesis-ergo.com/shop/advantage-for-pc-mac/)
 
 <img src="/images/kinesis-advantage-right-side.jpg" atl="Kinesis Advantage Right Side" width="510px">
 
--   Pros:
+Pros:
 
-    -   Split keyboard
-    -   All crucial and most used keys moved to thumb, your strongest
-        finger, to reduce fatigue
--   Cons:
+* Split keyboard
+* All crucial and most used keys moved to thumb, your strongest
+  finger, to reduce fatigue
 
-    -   Big learning curve, the shape and slope of keys slowed me down
-        (show typing tests?)
-    -   I found switching back to a regular keyboard layout (like your
-        laptop's internal keyboard) was getting difficult. As mobile
-        worker, it's important to work anywhere and having this become
-        an issue was a big one for me
-    -   It's a big and heavy keyboard, even for my tastes, so this is
-        not a good choice if you're limited on desk space
+Cons:
+
+* Big learning curve, the shape and slope of keys slowed me down
+  (show typing tests?)
+* I found switching back to a regular keyboard layout (like your
+  laptop's internal keyboard) was getting difficult. As mobile
+  worker, it's important to work anywhere and having this become
+  an issue was a big one for me
+* It's a big and heavy keyboard, even for my tastes, so this is
+  not a good choice if you're limited on desk space
 
 Finally, this brought me to try out the [Happy Hacking Professional
 2](https://elitekeyboards.com/products.php?sub=pfu_keyboards,hhkbpro2&pid=pdkb400w).
@@ -181,16 +182,17 @@ anyway.
 
 <img src="/images/happy-hacking-pro-2.jpg" atl="Happy Hacking Professional 2" width="510px">
 
--   Pros:
+Pros:
 
-    -   Topre key switches
-    -   Small form factor
-    -   Control key already where I would normally map it
--   Cons:
+* Topre key switches
+* Small form factor
+* Control key already where I would normally map it
 
-    -   Hated where the delete key is
-    -   Also hated where the function key is, didn't seem logical if you
-        had to press the function to use any function keys.
+Cons:
+
+* Hated where the delete key is
+* Also hated where the function key is, didn't seem logical if you
+  had to press the function to use any function keys.
 
 In the end, it's a great keyboard all around, but the delete key
 placement didn't jive with me and is the only reason I am not using this
@@ -209,25 +211,25 @@ shake out hands.)
 
 <img src="/images/realforce-104u.jpg" atl="Realforce 104U" width="510px">
 
--   Pros:
+Pros:
 
-    -   Variable weighted keys is the biggest win for me. 45g for inner
-        keys, 35g on outside
-        [pic](https://elitekeyboards.com/proddata/images/th/104u_ergochart_1000_th0x0.png)
-    -   It is a solid keyboard - makes me feel safe if I ever have to
-        fight off any bad guys with this keyboard (wanted-keyboard.gif)
-    -   Traditional look - almost like an old [IBM
-        keyboard](http://en.wikipedia.org/wiki/Model_M_keyboard), so
-        definitely no learing curve here
-    -   Topre key switches, which are not as loud and tactile feeling as
-        cherry swtiches, but somewhere in-between which I'm starting to
-        like
--   Cons:
+* Variable weighted keys is the biggest win for me. 45g for inner
+  keys, 35g on outside
+  [pic](https://elitekeyboards.com/proddata/images/th/104u_ergochart_1000_th0x0.png)
+* It is a solid keyboard - makes me feel safe if I ever have to
+  fight off any bad guys with this keyboard (wanted-keyboard.gif)
+* Traditional look - almost like an old [IBM
+  keyboard](http://en.wikipedia.org/wiki/Model_M_keyboard), so
+  definitely no learing curve here
+* Topre key switches, which are not as loud and tactile feeling as
+  cherry swtiches, but somewhere in-between which I'm starting to like
 
-    -   The lower weighted keys on the outside aaaaaare more prone to
-        typpppppppppos if you're one that rests your fingers on the home
-        row like me sometimes ;)
-    -   Price
+Cons:
+
+* The lower weighted keys on the outside aaaaaare more prone to
+  typpppppppppos if you're one that rests your fingers on the home
+  row like me sometimes ;)
+* Price
 
 After trying all these keyboards, and consequently going through the
 return process for most of them, I can happily recommend the Realforce
