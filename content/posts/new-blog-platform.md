@@ -18,10 +18,11 @@ and memory than a Django-powered blog application or even Wordpress. So
 with that, I decided to search for a static site generator that would
 suit me. I did some research and narrowed my choices down to three
 static site generators:
+<!-- PELICAN_END_SUMMARY -->
 
--   [Jekyll](https://github.com/mojombo/jekyll) (Ruby-based)
--   [Hyde](http://ringce.com/hyde) (Python-based)
--   [Growl](https://github.com/xfire/growl) (Python-based)
+- [Jekyll](https://github.com/mojombo/jekyll) (Ruby-based)
+- [Hyde](http://ringce.com/hyde) (Python-based)
+- [Growl](https://github.com/xfire/growl) (Python-based)
 
 Jekyll is the creation of [@mojombo](http://twitter.com/#!/mojombo), in
 which he refers to it as ["Blogging Like a
@@ -51,29 +52,29 @@ This blog is written and compiled with a slightly modified version of
 [Growl](https://github.com/jonathanchu/growl). So far, I'm loving the
 writing process:
 
--   Write the article in Emacs
--   Commit to Git repository
--   Rsync the changes to my production server
--   ...and that's it!
+- Write the article in Emacs
+- Commit to Git repository
+- Rsync the changes to my production server
+- ...and that's it!
 
 You can find out more about
 [Growl](https://github.com/jonathanchu/growl) by reading its
 documentation. Here are some of the main features of Growl:
 
--   Pages and posts have a YAML header
--   Pages and posts are written in Markdown
--   Layouts are written in HTML and Jinja2
+- Pages and posts have a YAML header
+- Pages and posts are written in Markdown
+- Layouts are written in HTML and Jinja2
 
 The basic structure of my blog looks something like this:
 
 ![Jontourage Directory
 Structure](/images/jontourage_dir_structure.png)
 
--   `_hooks` contains Python scripts that extend Growl
--   `_layout` contains the basic layouts for your site
--   `_libs` contains any third party libraries you want to use
--   `_posts` contains all the posts
--   `css` and `img` contain all the stylesheets and site media,
+- `_hooks` contains Python scripts that extend Growl
+- `_layout` contains the basic layouts for your site
+- `_libs` contains any third party libraries you want to use
+- `_posts` contains all the posts
+- `css` and `img` contain all the stylesheets and site media,
     respectively
 
 All files that end with an underscore, such as `index.html_` for
@@ -92,7 +93,11 @@ http://jontourage.com**/2011/01/18/new-blog-platform/**
 As for the post content itself, it simply is a mix of YAML and Markdown.
 Here's an example of what a post header looks like:
 
-    ---layout: posttitle: New Blog Platformpublish: false---
+    ---
+    layout: post
+    title: New Blog Platform
+    publish: false
+    ---
 
 And the rest of the post is just Markdown! When I'm done writing the
 article, I simply push to GitHub and sync up the production server using
@@ -102,6 +107,3 @@ a rsync hook:
 
 And that's it! You can checkout my blog and the structure in more detail
 [here](https://github.com/jonathanchu/jontourage).
-
-
--- Jan 18, 2011
