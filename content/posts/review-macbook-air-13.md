@@ -36,8 +36,7 @@ average B/G network.
 ![MBA 2](/images/L1040583.jpg)
 
 One thing that does annoy me is that the Air does not fit well on my
-[Rain Design
-mStand](http://www.amazon.com/gp/product/B000OOYECC?ie=UTF8&tag=jontourage-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=B000OOYECC).
+[Rain Design mStand](http://www.amazon.com/gp/product/B000OOYECC?ie=UTF8&tag=jontourage-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=B000OOYECC).
 As you can see in the picture below, aluminum does not rest on the pads
 because of the thinness.
 
@@ -82,16 +81,16 @@ limitation I can deal with given the hardware.
 
 ### Likes
 
--   Portability
--   Boots up in about 15 seconds
--   Almost all applications launch within 1-3 seconds
--   Battery life upwards of 8 hours (50% screen brightness)
+- Portability
+- Boots up in about 15 seconds
+- Almost all applications launch within 1-3 seconds
+- Battery life upwards of 8 hours (50% screen brightness)
 
 ### Dislikes
 
--   Glossy screen
--   No backlit keyboard
--   Not (easily) upgradable
+- Glossy screen
+- No backlit keyboard
+- Not (easily) upgradable
 
 Conclusion
 ----------
@@ -103,5 +102,3 @@ i.e. - on the couch in front of the TV). If not having a DVD drive is a
 dealbreaker, I would say this isn't the laptop for you. All in all, I
 could not be happier with the Air. It's an excellent laptop and has been
 able to handle all my tasks with ease.
-
--- Jan 10, 2011
