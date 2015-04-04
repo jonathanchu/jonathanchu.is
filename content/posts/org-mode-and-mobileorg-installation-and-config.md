@@ -9,7 +9,7 @@ Tags: mobileorg, org-mode, emacs
 
 Intro
 -----
-
+<!-- PELICAN_BEGIN_SUMMARY -->
 Throughout the years, I've flipped back and forth between Org-Mode and
 applications such as [Drafts (iOS)](http://agiletortoise.com/drafts/),
 [Evernote](https://evernote.com/), [Simplenote](http://simplenote.com/),
@@ -24,10 +24,11 @@ that Emacs is often criticized for, is the fact that it has a lot of
 functionality under the hood - almost *too* much. Org-Mode is a very
 feature-rich application. For my basic needs, I use Org-Mode primiarly
 for three things:
+<!-- PELICAN_END_SUMMARY -->
 
--   Basic note-taking and outlines
--   TODO lists
--   Tracking and clocking time
+- Basic note-taking and outlines
+- TODO lists
+- Tracking and clocking time
 
 Here Comes MobileOrg
 --------------------
@@ -80,7 +81,11 @@ You will need a few more lines of code to get this all working with your
 local org files and MobileOrg. This is my basic config based on the two
 main directories above that will need to go in your Emacs config:
 
-    ;; mobileorg settings(setq org-directory "~/Dropbox/org")(setq org-mobile-inbox-for-pull "~/Dropbox/org/inbox.org")(setq org-mobile-directory "~/Dropbox/Apps/MobileOrg")(setq org-mobile-files '("~/Dropbox/org"))
+    ;; mobileorg settings
+    (setq org-directory "~/Dropbox/org")
+    (setq org-mobile-inbox-for-pull "~/Dropbox/org/inbox.org")
+    (setq org-mobile-directory "~/Dropbox/Apps/MobileOrg")
+    (setq org-mobile-files '("~/Dropbox/org"))
 
 Finally, from within Emacs - edit any org file located in
 `~/Dropbox/org/` and save those changes. Then send these changes to
@@ -92,5 +97,3 @@ With any luck, you should be able to go back to MobileOrg on your mobile
 device and click the refresh button to see your org file(s) all there.
 
 Happy hacking!
-
--- Jul 10, 2013
