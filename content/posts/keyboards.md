@@ -87,8 +87,7 @@ found this even more annoying as this led to lots of simple errors.
 [Kinesis Maxim](http://www.kinesis-ergo.com/shop/maxim-for-pc/) (\*stock
 photo)
 
-[![Kinesis
-Maxim](/images/kinesis-maxim.jpg)](/images/kinesis-maxim.jpg)
+<img src="/images/kinesis-maxim.jpg" atl="Kinesis Maxim" width="510px">
 
 -   Pros:
 
@@ -117,8 +116,7 @@ things to make it more "up-to-date".
 [Microsoft Sculpt
 Ergonomic](http://www.amazon.com/Microsoft-Sculpt-Ergonomic-Desktop-L5V-00001/dp/B00CYX54C0)
 
-[![Microsoft Sculpt
-Ergonomic](/images/microsoft-sculpt-ergonomic.jpg)](/images/microsoft-sculpt-ergonomic.jpg)
+<img src="/images/microsoft-sculpt-ergonomic.jpg" atl="Microsoft Sculpt Ergonomic" width="510px">
 
 -   Pros:
 
@@ -150,14 +148,11 @@ down to 30-40 WPM with about 1-2 errors.
 [Kinesis
 Advantage](https://www.kinesis-ergo.com/shop/advantage-for-pc-mac/)
 
-[![Kinesis Advantage
-Full](/images/kinesis-advantage.jpg)](/images/kinesis-advantage.jpg)
+<img src="/images/kinesis-advantage.jpg" atl="Kinesis Advantage Full" width="510px">
 
-[![Kinesis Advantage Left
-Side](/images/kinesis-advantage-left-side.jpg)](/images/kinesis-advantage-left-side.jpg)
+<img src="/images/kinesis-advantage-left-side.jpg" atl="Kinesis Advantage Left Side" width="510px">
 
-[![Kinesis Advantage Right
-Side](/images/kinesis-advantage-right-side.jpg)](/images/kinesis-advantage-right-side.jpg)
+<img src="/images/kinesis-advantage-right-side.jpg" atl="Kinesis Advantage Right Side" width="510px">
 
 -   Pros:
 
@@ -184,8 +179,7 @@ anyway.
 [Happy Hacking Professional
 2](https://elitekeyboards.com/products.php?sub=pfu_keyboards,hhkbpro2&pid=pdkb400w)
 
-[![Happy Hacking Professional
-2](/images/happy-hacking-pro-2.jpg)](/images/happy-hacking-pro-2.jpg)
+<img src="/images/happy-hacking-pro-2.jpg" atl="Happy Hacking Professional 2" width="510px">
 
 -   Pros:
 
@@ -213,8 +207,7 @@ shake out hands.)
 [Realforce
 104U](https://elitekeyboards.com/products.php?sub=topre_keyboards,rf104&pid=xf01t0)
 
-[![Realforce
-104U](/images/realforce-104u.jpg)](/images/realforce-104u.jpg)
+<img src="/images/realforce-104u.jpg" atl="Realforce 104U" width="510px">
 
 -   Pros:
 
@@ -245,6 +238,3 @@ to a traditional look-and-feel of an old-school IBM keyboard, with no
 learning curve, but a higher price tag for what you would expect a
 high-end keyboard. If you don't have the space for a full-sized
 keyboard, I would recommend a Happy Hacking Professional 2.
-
-
--- Apr 07, 2014
