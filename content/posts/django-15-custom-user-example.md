@@ -54,12 +54,14 @@ Github](https://github.com/jonathanchu/django-custom-user-example)**
 First, clone the example custom user project and change directory into
 it:
 
-    $ git clone https://github.com/jonathanchu/django-custom-user-example.git$ cd django-custom-user-example
+    $ git clone https://github.com/jonathanchu/django-custom-user-example.git
+    $ cd django-custom-user-example
 
 Then, create your virtual environment. We'll only be installing Django
 (v1.5.4):
 
-    $ mkvirtualenv customuser(customuser) $ pip install django
+    $ mkvirtualenv customuser(customuser)
+    $ pip install django
 
 After Django is installed, let's run `syncdb` to create our test DB and
 first superuser. This is configured out-of-the-box to use SQLite3 for
