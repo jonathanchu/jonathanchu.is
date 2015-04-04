@@ -3,12 +3,14 @@ Date: 2012-01-21 00:00
 Slug: 2011-in-review
 Category: Miscellaneous
 
+
 Since it seems that everyone and their mother is doing a "year in
 review" post, I find it fitting that I be no different and write one as
 well - except it's three weeks later than everyone else. 2011 was an
 exciting year for me for a variety of reasons, as I went through some
 big work and life changes, met some great new friends, and reunited with
 a few long lost ones.
+<!-- PELICAN_END_SUMMARY -->
 
 Work
 ----
@@ -41,7 +43,7 @@ year.
 
 ![Nick's new laptop](/images/IMG_1116.jpg)
 
-*[Nick](https://twitter.com/#!/nficano) holding up his new laptop that
+*[Nick](https://twitter.com/nficano) holding up his new laptop that
 we bought at a mall in Atlanta during PyCon...during iPad 2 (insanity)
 launch day!*
 
@@ -69,9 +71,9 @@ More Conferences!
 
 In September, I was fortunate enough to get to go to three conferences:
 
--   [DjangoCon](http://djangocon.us/) (Portland)
--   PyGotham (NYC)
--   [Strata Conference](http://strataconf.com/) (NYC)
+- [DjangoCon](http://djangocon.us/) (Portland)
+- PyGotham (NYC)
+- [Strata Conference](http://strataconf.com/) (NYC)
 
 And for the rest of the fall season into winter, it was just work, work,
 and more work - literally every free hour I had was devoted to meeting
@@ -89,12 +91,10 @@ butterflies with work, but for all the negative moments I've had this
 year, I've used it as a learning experience and I wouldn't trade it for
 a second. I get to program in languages and frameworks of my choosing
 (Python and Django!) and get to work with
-[people](https://twitter.com/#!/ryanquigley)
-[that](https://twitter.com/#!/nficano)
-[are](https://twitter.com/#!/bingimar)
-[smarter](https://twitter.com/#!/arronhunt)
-[than](https://twitter.com/#!/iancohen)
-[me](https://twitter.com/#!/ginlane). Here's to a great 2011 and an even
+[people](https://twitter.com/ryanquigley)
+[that](https://twitter.com/nficano)
+[are](https://twitter.com//bingimar)
+[smarter](https://twitter.com/arronhunt)
+[than](https://twitter.com/iancohen)
+[me](https://twitter.com/ginlane). Here's to a great 2011 and an even
 better 2012!
-
--- Jan 21, 2012
