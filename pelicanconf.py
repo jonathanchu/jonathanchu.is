@@ -41,7 +41,10 @@ FEED_RSS = 'posts/feed/latest'
 FEED_ATOM = 'posts/feed/latest.atom'
 
 PLUGIN_PATHS = ['plugins']
-PLUGINS = ['assets']
+PLUGINS = ['assets', 'summary']
+
+SUMMARY_END_MARKER = '---'
+SUMMARY_MAX_LENGTH = 90
 
 ASSET_SOURCE_PATHS = ['static']
 
