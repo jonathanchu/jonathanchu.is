@@ -3,11 +3,13 @@ Date: 2012-03-02 00:00
 Slug: applications-i-use
 Category: Miscellaneous
 
+
 About two years ago, I bought my dad a MacBook Pro as a gift and with
 him being a long-time Windows user, the transition wasn't seemless to
 say the least. I wanted to write an article on the applications I use to
 give him an idea of what's out there. So here are some common and
 not-so-common applications I use on a daily basis:
+<!-- PELICAN_END_SUMMARY -->
 
 General
 -------
@@ -258,5 +260,3 @@ fun little exercise to go over the tools I use on a daily basis and I
 hope this is helpful for some out there. In one of next articles, I plan
 to write more about my development workflow and the tools I use in
 greater detail.
-
--- Mar 02, 2012
