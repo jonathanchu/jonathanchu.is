@@ -28,11 +28,11 @@
     <abbr class="published" title="{{ article.date.isoformat() }}">
       {{ article.locale_date }}
     </abbr>
-	{% if article.modified %}
+        {% if article.modified %}
     <abbr class="modified" title="{{ article.modified.isoformat() }}">
       {{ article.locale_modified }}
     </abbr>
-	{% endif %}
+        {% endif %}
     {% if article.authors %}
     <address class="vcard author">
       By {% for author in article.authors %}
@@ -41,7 +41,6 @@
     </address>
     {% endif %}
   </footer><!-- /.post-info -->
-  <div class="entry-content">
   <div class="entry-content markdown-body">
     {{ article.content }}
   </div><!-- /.entry-content -->
