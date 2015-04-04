@@ -16,6 +16,10 @@ PATH = 'content'
 TIMEZONE = 'America/New_York'
 DEFAULT_LANG = 'en'
 
+DATE_FORMATS = {
+    'en': '%B %-d, %Y',
+}
+
 DEFAULT_PAGINATION = 10
 
 RELATIVE_URLS = False
