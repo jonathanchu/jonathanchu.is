@@ -16,28 +16,29 @@
 {% endblock %}
 
 {% block content %}
-<section class="post">
-  <h2 class="entry-title">
-    <a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a>
-  </h2>
- {% import 'translations.html' as translations with context %}
- {{ translations.translations_for(article) }}
+<div class="columns post">
+  <div class="three-fourths column markdown-body">
 
-  <div class="post-info">
-    <div class="published">
-      <span class="bold">Published on</span> {{ article.locale_date }}
+    <h2 class="entry-title">
+      <a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a>
+    </h2>
+
+    <div class="post-info">
+      <div class="published">
+        <span class="bold">Published on</span> {{ article.locale_date }}
+      </div>
+
+      {% if article.modified %}
+        <div class="modified">
+          <span class="bold">Updated:</span> {{ article.locale_modified }}
+        </div>
+      {% endif %}
     </div>
 
-    {% if article.modified %}
-      <div class="modified">
-        <span class="bold">Updated:</span> {{ article.locale_modified }}
-      </div>
-    {% endif %}
+    <div class="markdown-body">
+      {{ article.content }}
+    </div>
 
-  </div><!-- /.post-info -->
-
-  <div class="entry-content markdown-body">
-    {{ article.content }}
-  </div><!-- /.entry-content -->
-</section>
+  </div>
+</div>
 {% endblock %}
