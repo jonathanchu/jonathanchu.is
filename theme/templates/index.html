@@ -11,8 +11,15 @@
             <h2>
               <a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a>
             </h2>
-            <abbr class="published" title="{{ article.date.isoformat() }}">{{ article.locale_date }}</abbr>
-            {{ article.summary }}
+
+            <div class="published">
+              {{ article.locale_date }}
+            </div>
+
+            <div class="markdown-body">
+              {{ article.summary }}
+            </div>
+
           </article>
         </li>
       {% endfor %}

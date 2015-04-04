@@ -332,8 +332,14 @@ body {
   .posts-list {
     li {
       &:not(:first-child) {
-        margin-top: 50px;
+        margin-top: 60px;
       }
+    }
+
+    .published {
+      margin-bottom: 15px;
+      color: @brand-gray-light;
+      font-size: .9em;
     }
   }
 }
@@ -342,7 +348,10 @@ body {
   .post-info {
     margin-bottom: 50px;
 
-    .published {
+    .published,
+    .modified {
+      color: @brand-gray-light;
+      font-size: .9em;
     }
 
     .modified {
