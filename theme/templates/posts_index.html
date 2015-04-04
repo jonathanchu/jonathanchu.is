@@ -1,23 +1,23 @@
 {% extends "base.html" %}
 
 {% block content %}
-<ol>
-  {% for article in articles_page.object_list %}
-    <li>
-      <article>
-        <h2>
-          <a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a>
-        </h2>
-        <div>
-          <abbr class="published" title="{{ article.date.isoformat() }}">{{ article.locale_date }}</abbr>
-        </div>
-        <div>
-          {{ article.summary }}
-        </div>
-      </article>
-    </li>
-  {% endfor %}
-</ol>
+<div class="columns page-layout">
+  <div class="three-fourths column">
+    <ul>
+      {% for article in articles_page.object_list %}
+        <li>
+          <article>
+            <h2>
+              <a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a>
+            </h2>
+            <abbr class="published" title="{{ article.date.isoformat() }}">{{ article.locale_date }}</abbr>
+            {{ article.summary }}
+          </article>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
 
 {% include 'pagination.html' %}
 
