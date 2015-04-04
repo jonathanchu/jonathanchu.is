@@ -4,6 +4,7 @@ Slug: upgrading-postgresql-90-to-91-with-pg_upgrade
 Category: Programming
 Tags: postgresql
 
+
 Recently, I updated all of the packages I have installed via
 [Homebrew](https://github.com/mxcl/homebrew) and ran into some issues
 with the PostgreSQL package. I was getting this error:
@@ -35,7 +36,8 @@ Run `pg_upgrade` with the following arguments:
 If all goes without error, you can switch the data directories so
 Postgres will point to the right source.
 
-    $ mv postgres postgres9.0.1$ mv postgres9 postgres
+    $ mv postgres postgres9.0.1
+    $ mv postgres9 postgres
 
 You can delete the script left behind by `pg_upgrade`:
 
@@ -48,9 +50,8 @@ before restarting the new one:
 
 Then I restarted the new Postgres instance:
 
-    $ launchctl unload -w homebrew.mxcl.postgresql.plist$ launchctl load -w homebrew.mxcl.postgresql.plist
+    $ launchctl unload -w homebrew.mxcl.postgresql.plist
+    $ launchctl load -w homebrew.mxcl.postgresql.plist
 
 And you're done - this should fix the PostgreSQL incompatible data
 directory issue.
-
--- Jun 19, 2012
