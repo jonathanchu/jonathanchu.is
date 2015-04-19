@@ -22,22 +22,8 @@
   </head>
 
   <body>
-    <header class="masthead">
-      <div class="container">
-        <a href="{{ SITEURL }}/" class="masthead-logo">{{ SITENAME }}</a>
-        <nav class="masthead-nav">
-          <a href="{{ SITEURL }}/{{ POSTS_URL }}"{% if page_name == 'posts/index' %}class="active"{% endif %}>Posts</a>
-          {% if DISPLAY_PAGES_ON_MENU %}
-            {% for p in PAGES %}
-              <a href="{{ SITEURL }}/{{ p.url }}"{% if p == page %} class="active"{% endif %}>{{ p.title }}</a>
-            {% endfor %}
-          {% endif %}
-        </nav>
-      </div>
-    </header>
-
     <div class="container">
-      My name is Jonathan Chu and I'm a software engineer at <a href="https://www.yesgraph.com">YesGraph</a>.
+      My name is Jonathan Chu and I'm a software engineer at <a href="https://www.yesgraph.com">YesGraph</a>.  Check out my <a href="{{ SITEURL }}/{{ POSTS_URL }}"{% if page_name == 'posts/index' %}class="active"{% endif %}>posts</a>.
     </div>
 
     {% include "gauges.html" %}
