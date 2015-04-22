@@ -23,7 +23,9 @@
 
   <body class="landing">
     <div class="container">
-      My name is Jonathan Chu and I'm a software engineer at <a href="https://www.yesgraph.com">YesGraph</a>.  Check out my <a href="{{ SITEURL }}/{{ POSTS_URL }}"{% if page_name == 'posts/index' %}class="active"{% endif %}>posts</a>.
+      <p class="center">
+        My name is Jonathan Chu and I'm a software engineer at <a class="yesgraph" href="https://www.yesgraph.com">YesGraph</a>.  Check out my <a href="{{ SITEURL }}/{{ POSTS_URL }}"{% if page_name == 'posts/index' %}class="active"{% endif %}>posts</a>.
+      </p>
     </div>
 
     {% include "gauges.html" %}
