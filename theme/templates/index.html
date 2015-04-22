@@ -23,10 +23,12 @@
 
   <body class="landing">
     <div class="container">
-      <p class="center">
-        My name is Jonathan Chu and I'm a software engineer at <a class="yesgraph" href="https://www.yesgraph.com">YesGraph</a>.  Check out my <a href="{{ SITEURL }}/{{ POSTS_URL }}"{% if page_name == 'posts/index' %}class="active"{% endif %}>posts</a>.
-      </p>
-    </div>
+      <div class="two-thirds single-column">
+        <p class="intro">
+          My name is Jonathan Chu and I'm a software engineer at <a class="yesgraph" href="https://www.yesgraph.com">YesGraph</a>.  Check out my <a href="{{ SITEURL }}/{{ POSTS_URL }}"{% if page_name == 'posts/index' %}class="active"{% endif %}>posts</a>.
+        </p>
+      </div>  <!-- /.two-thirds /.single-column -->
+    </div>  <!-- /.container -->
 
     {% include "gauges.html" %}
     {% include "google_analytics.html" %}
