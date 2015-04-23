@@ -735,22 +735,3 @@ p.explain {
 
   a { font-weight: bold; }
 }
-
-
-// Inline verification
-//
-// Used for example when autosaving checkboxes in settings.
-.status-indicator {
-  .icon-bootstrap(16px);
-  margin-left: 5px;
-}
-
-.status-indicator-success:before {
-  color: @brand-green;
-  content: "\f03a"; // octicon-check
-}
-
-.status-indicator-failed:before {
-  color: @brand-red;
-  content: "\f02d"; // octicon-x
-}
