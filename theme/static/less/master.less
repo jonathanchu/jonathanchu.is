@@ -23,6 +23,7 @@ html {
 body {
   font-family: "Helvetica Neue", @body-font;
   font-size: 1rem;
+  -webkit-font-smoothing: antialiased;
 }
 
 // Make containers responsive
@@ -166,6 +167,15 @@ body {
       &:not(:first-child) {
         margin-top: 60px;
       }
+
+      h2 {
+        font-weight: 400;
+        font-size: 22px;
+      }
+
+      p {
+        font-size: 18px;
+      }
     }
 
     .published {
@@ -193,16 +203,15 @@ body {
   }
 
   .markdown-body {
-    font-size: 20px;
-    -webkit-font-smoothing: antialiased;
+    font-size: 18px;
     letter-spacing: .01rem;
     font-weight: 400;
     font-style: normal;
-    font-size: 22px;
-    line-height: 1.5;
+    line-height: 1.8;
 
     h2 {
       border-bottom: 0;
+      font-weight: 400;
     }
   }
 }
