@@ -17,42 +17,41 @@ https://docs.djangoproject.com/en/1.8/ref/templates/upgrading/
 
 Make sure `Jinja2` is installed:
 
-```
-$ pip install jinja2
-```
+    $ pip install jinja2
+
 
 In my `settings.py`, here is how I defined my `TEMPLATES` list:
 
-```
-TEMPLATES = [
-    {
-        'BACKEND': 'django.template.backends.jinja2.Jinja2',
-        'DIRS': [
-            os.path.join(BASE_DIR, 'templates/jinja2'),
-        ],
-        'APP_DIRS': True,
-        'OPTIONS': {
-            'environment': 'myproject.jinja2.environment',
-        },
-    },
-    {
-        'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
-        'APP_DIRS': True,
-        'OPTIONS': {
-            'context_processors': [
-                'django.contrib.auth.context_processors.auth',
-                'django.template.context_processors.debug',
-                'django.template.context_processors.i18n',
-                'django.template.context_processors.media',
-                'django.template.context_processors.static',
-                'django.template.context_processors.tz',
-                'django.contrib.messages.context_processors.messages',
+    :::python
+    TEMPLATES = [
+        {
+            'BACKEND': 'django.template.backends.jinja2.Jinja2',
+            'DIRS': [
+                os.path.join(BASE_DIR, 'templates/jinja2'),
             ],
+            'APP_DIRS': True,
+            'OPTIONS': {
+                'environment': 'myproject.jinja2.environment',
+            },
         },
-    },
-]
-```
+        {
+            'BACKEND': 'django.template.backends.django.DjangoTemplates',
+            'DIRS': [],
+            'APP_DIRS': True,
+            'OPTIONS': {
+                'context_processors': [
+                    'django.contrib.auth.context_processors.auth',
+                    'django.template.context_processors.debug',
+                    'django.template.context_processors.i18n',
+                    'django.template.context_processors.media',
+                    'django.template.context_processors.static',
+                    'django.template.context_processors.tz',
+                    'django.contrib.messages.context_processors.messages',
+                ],
+            },
+        },
+    ]
+
 
 You need to define both backends in the `TEMPLATES` setting to be able
 to use the Django Admin.  The Djang Admin does not ship with Jinja2
@@ -64,19 +63,18 @@ templates.
 
 Finally, create a file called `jinja2.py` under your project directory (should be at the same level as your `settings.py`) and put this in there:
 
-```
-from django.contrib.staticfiles.storage import staticfiles_storage
-from django.core.urlresolvers import reverse
-from jinja2 import Environment
+    :::python
+    from django.contrib.staticfiles.storage import staticfiles_storage
+    from django.core.urlresolvers import reverse
+    from jinja2 import Environment
 
 
-def environment(**options):
-    env = Environment(**options)
-    env.globals.update({
-        'static': staticfiles_storage.url,
-        'url': reverse,
-    })
-    return env
-```
+    def environment(**options):
+        env = Environment(**options)
+        env.globals.update({
+            'static': staticfiles_storage.url,
+            'url': reverse,
+        })
+        return env
 
 This makes `static` and `url` available in your Jinja2 templates.
