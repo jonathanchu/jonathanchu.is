@@ -15,6 +15,12 @@ thought I'd share how I got it working.
 First, here is the docs for the upgrade path to use the new templating system:
 https://docs.djangoproject.com/en/1.8/ref/templates/upgrading/
 
+Make sure `Jinja2` is installed:
+
+```
+$ pip install jinja2
+```
+
 In my `settings.py`, here is how I defined my `TEMPLATES` list:
 
 ```
