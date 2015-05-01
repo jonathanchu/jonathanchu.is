@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
+# isort:skip_file
 from __future__ import unicode_literals
 
 # This file is only used if you use `make publish` or
@@ -10,7 +11,7 @@ import sys
 sys.path.append(os.curdir)
 from pelicanconf import *
 
-SITEURL = 'http://www.jontourage.com'
+SITEURL = 'http://jonathanchu.is'
 RELATIVE_URLS = False
 
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
