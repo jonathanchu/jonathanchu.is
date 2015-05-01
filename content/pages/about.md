@@ -18,3 +18,5 @@ Here are some other places you can find me on the web:
 * [Flickr](https://www.flickr.com/photos/jonnychu/)
 * [LinkedIn](https://www.linkedin.com/in/jonathanchu13)
 * [Keybase](https://keybase.io/jonathanchu)
+
+You can email me anytime at <a href="mailto:me@jonathanchu.is">me@jonathanchu.is</a>.
