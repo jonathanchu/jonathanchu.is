@@ -106,8 +106,8 @@ And put this in there:
 This makes `static` and `url` available in your Jinja2 templates.
 
 Here's a [tree](http://mama.indstate.edu/users/ice/tree/) of the final project structure:
-$ tree myproject
 
+    $ tree myproject
     myproject
     ├── myproject
     │   ├── __init__.py
