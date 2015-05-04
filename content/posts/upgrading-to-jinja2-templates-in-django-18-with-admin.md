@@ -105,6 +105,23 @@ And put this in there:
 
 This makes `static` and `url` available in your Jinja2 templates.
 
+Here's a [tree](http://mama.indstate.edu/users/ice/tree/) of the final project structure:
+$ tree myproject
+
+    myproject
+    ├── myproject
+    │   ├── __init__.py
+    │   ├── jinja2.py
+    │   ├── settings.py
+    │   ├── urls.py
+    │   └── wsgi.py
+    ├── manage.py
+    ├── templates
+    │   └── jinja2
+    │       ├── base.html
+    │       ├── home.html
+
+
 ##### PR0FIT!
 
 And that should do it!  If you go to `/admin/` you should see a
