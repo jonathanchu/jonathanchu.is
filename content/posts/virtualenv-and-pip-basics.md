@@ -109,8 +109,6 @@ install some packages to it.
 We're going to install Python package `Yolk` as it is a useful command
 line utility that lists the packages installed for the environment.
 
-    $ v myvirtualenv
-    (myvirtualenv) $
     (myvirtualenv) $ pip install yolk
     Downloading/unpacking yolk
       Downloading yolk-0.4.1.tar.gz (80Kb): 80Kb downloaded
