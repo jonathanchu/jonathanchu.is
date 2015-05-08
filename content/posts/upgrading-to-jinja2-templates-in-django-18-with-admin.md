@@ -36,7 +36,7 @@ Make sure `Jinja2` is installed:
 
 ##### In `settings.py`
 
-In my `settings.py`, here is how I defined my `TEMPLATES` list:
+Here is how I defined my `TEMPLATES` list:
 
     :::python
     TEMPLATES = [
@@ -75,7 +75,7 @@ to use the Django Admin.
 ##### Create directory for `jinja2` templates
 
 Next, create a `jinja2` directory in your project's `templates`
-directory.  This is where we are going to put all our Jinja2
+directory.  This is where we are going to put all of our Jinja2
 templates.
 
     $ cd <path_to_project>/templates && mkdir jinja2
