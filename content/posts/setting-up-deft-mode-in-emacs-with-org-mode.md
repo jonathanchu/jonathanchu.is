@@ -80,7 +80,12 @@ lead off a note with the title of the file (it's usually a date like
 
 Putting it all together, and you have this in its entirety:
 
-    ;; deft(require 'deft)(setq deft-extension "org")(setq deft-directory "~/Dropbox/org")(setq deft-text-mode 'org-mode)(setq deft-use-filename-as-title t)
+    ;; deft
+    (require 'deft)
+    (setq deft-extension "org")
+    (setq deft-directory "~/Dropbox/org")
+    (setq deft-text-mode 'org-mode)
+    (setq deft-use-filename-as-title t)
 
 Using Deft
 ----------
