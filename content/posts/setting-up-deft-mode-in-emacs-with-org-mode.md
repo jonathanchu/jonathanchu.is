@@ -25,13 +25,13 @@ prose and coding. After a quick search, I found [Jason
 Blevins'](http://jblevins.org/) great little creation called
 [Deft](http://jblevins.org/projects/deft/). To sum it up, Deft is an
 open source mode for Emacs to view, record, and search for notes in
-plain text, very much like Notational Velocity/nValt. I highly encourage
-you to check out Jason's [project page for
+plain text, very much like Notational Velocity/nValt. I highly
+encourage you to check out Jason's [project page for
 Deft](http://jblevins.org/projects/deft/). After trying out Deft, it
-made me want to switch 100% over to org-mode notes as I really only used
-org-mode for sporadic notes. Now, I have the power of org-mode with
-Emacs in a Notational Velocity-like buffer with Deft. The rest of the
-article will be outlining how I set it up in my Emacs config.
+made me want to switch 100% over to org-mode notes as I really only
+used org-mode for sporadic notes. Now, I have the power of org-mode
+with Emacs in a Notational Velocity-like buffer with Deft. The rest of
+the article will be outlining how I set it up in my Emacs config.
 
 Setting up Deft
 ---------------
@@ -40,8 +40,7 @@ First, go grab [deft.el](http://jblevins.org/projects/deft/deft.el) and
 make sure it is available in your Emacs config (i.e. -
 \~/.emacs/vendor/deft.el path). You can grab it
 [here](http://jblevins.org/projects/deft/deft.el) or get it directly
-from my [Emacs
-config](https://github.com/jonathanchu/emacs/blob/master/vendor/deft.el),
+from my [Emacs config](https://github.com/jonathanchu/emacs/blob/master/vendor/deft.el),
 which is the original unmodified file.
 
 Once `deft.el` is on your Emacs load path, you'll need to tell Emacs to
@@ -110,15 +109,13 @@ To enter the Deft buffer, simply do:
 And you should see the Deft buffer like so, with all of your org-files
 (yes, I know - nothing is blurred out...I got nothing to hide :P ):
 
-![Deft buffer
-screenshot](http://cl.ly/image/3r06392e2r3B/Screen%20Shot%202013-08-15%20at%202.42.37%20AM.png)
+![Deft buffer screenshot](http://cl.ly/image/3r06392e2r3B/Screen%20Shot%202013-08-15%20at%202.42.37%20AM.png)
 
 Start typing and you'll see the list of notes filter out the results
 that do not match, just like Notational Velocity. Hit ENTER to open the
 note in a new buffer.
 
-![Deft filter
-screenshot](http://cl.ly/image/1n1S41400T16/Screen%20Shot%202013-08-15%20at%202.43.03%20AM.png)
+![Deft filter screenshot](http://cl.ly/image/1n1S41400T16/Screen%20Shot%202013-08-15%20at%202.43.03%20AM.png)
 
 And there you have it! Much appreciation and thanks goes to [Jason
 Blevins](http://jblevins.org/) for this awesome mode that has
