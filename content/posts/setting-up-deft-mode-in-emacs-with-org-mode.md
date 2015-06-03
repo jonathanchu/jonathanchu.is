@@ -78,14 +78,27 @@ lead off a note with the title of the file (it's usually a date like
 
     (setq deft-use-filename-as-title t)
 
+Optionally, you can set `deft-auto-save-interval` to `nil`. Its
+default value is `1.0`, which means it saves every second. This is
+very useful to many, meaning you don't ever have to manually save your
+notes since Deft automatically does it for you; however, with my
+custom emacs config, I prefer to turn this off completely and manually
+save my notes file because I have a `before-save-hook` that deletes
+trailing whitespace. This made typing notes a bit annoying and would
+often remove whitespace if I was in the middle of writing a sentence,
+where I didn't want it to do that yet.
+
+    (setq deft-auto-save-interval nil)
+
 Putting it all together, and you have this in its entirety:
 
     ;; deft
     (require 'deft)
-    (setq deft-extension "org")
     (setq deft-directory "~/Dropbox/org")
+    (setq deft-extension "org")
     (setq deft-text-mode 'org-mode)
     (setq deft-use-filename-as-title t)
+    (setq deft-auto-save-interval nil)
 
 Using Deft
 ----------
