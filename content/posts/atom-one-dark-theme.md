@@ -8,8 +8,9 @@ Tags: emacs
 This past weekend I hacked together a new Emacs color theme that is
 essentially a port of a [Atom.io's](https://atom.io/)
 [One Dark theme](https://atom.io/themes/one-dark-syntax).
+<!-- PELICAN_END_SUMMARY -->
 
-Here's the repo for this - https://github.com/jonathanchu/atom-one-dark-theme
+Here's the repo for this - [One Dark Theme for Emacs](https://github.com/jonathanchu/atom-one-dark-theme)
 
 It is based off of the official syntax and UI themes:
 
