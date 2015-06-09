@@ -38,4 +38,4 @@ requests are greatly welcomed!  Here's a screenshot of the theme:
 
 In the screenshot, for those curious the font is Inconsolata and I use
  `smart-mode-line`. My whole emacs config can be found
- [here](https://github.com/jonathanchu/dotemacs)
+ [here](https://github.com/jonathanchu/dotemacs).
