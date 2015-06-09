@@ -36,6 +36,6 @@ requests are greatly welcomed!  Here's a screenshot of the theme:
 
 <img src="/images/atom_one_dark_theme_emacs.png" alt="Atom One Dark Theme for Emacs screenshot" width="510px" class="centered">
 
-In the screenshot, the font is Inconsolata and I use
+In the screenshot, for those curious the font is Inconsolata and I use
  `smart-mode-line`. My whole emacs config can be found
  [here](https://github.com/jonathanchu/dotemacs)
