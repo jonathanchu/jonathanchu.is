@@ -25,6 +25,19 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 
 2) Install Homebrew Cask
 
+Next, we'll need to install Java.  You can go to the Java website to download it and install manually, but I prefer to let package managers do that for me.
+
+For this, we'll need to download Java JVM.  We can do so through Homebrew Cask:
+
+```console
+brew install caskroom/cask/brew-cask
+```
+
+Then you can do:
+
+```console
+brew install java
+```
 
 3) brew cask install java
 4) brew install leiningen
