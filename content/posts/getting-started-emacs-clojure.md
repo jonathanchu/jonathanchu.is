@@ -19,3 +19,4 @@ started with Clojure and Emacs on OS X.
 5) Make sure exec path setup in emacs (ex. `/usr/local/bin`)
 6) package-install cider, 4clojure
 7) profiles.clj
+8) What to do for message about "WARNING: CIDER requires nREPL 0.2.7 to work properly"
