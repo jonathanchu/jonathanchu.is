@@ -9,5 +9,13 @@ predominantly Python-focused career, I wanted to chronicle my
 experiences with learning Clojure and integrating it witin my Emacs
 config.
 
-This article will be geared towards beginners, like me, looking to
-start writing some Clojure code with Emacs support.
+This article will be geared towards beginners, like me, looking to get
+started with Clojure and Emacs on OS X.
+
+1) Install Homebrew
+2) Install Homebrew Cask
+3) brew cask install java
+4) brew install leiningen
+5) Make sure exec path setup in emacs (ex. `/usr/local/bin`)
+6) package-install cider, 4clojure
+7) profiles.clj
