@@ -1,5 +1,5 @@
 Date: 2015-06-12 00:00
-Slug: getting-started-emacs-clojure
+Slug: getting-started-emacs-clojure-mac-osx
 Category: Emacs
 Tags: emacs, clojure
 
