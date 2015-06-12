@@ -12,8 +12,20 @@ config.
 This article will be geared towards beginners, like me, looking to get
 started with Clojure and Emacs on OS X.
 
-1) Install Homebrew
+1) Install Homebrew - [http://brew.sh/](http://brew.sh/)
+
+I won't go into too much detail here, aside from providing the link
+where you can find all the resources on installing this. I highly
+recommend using Homebrew for your packaging needs on OS X. The one
+liner to install looks like this:
+
+```console
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+
 2) Install Homebrew Cask
+
+
 3) brew cask install java
 4) brew install leiningen
 5) Make sure exec path setup in emacs (ex. `/usr/local/bin`)
