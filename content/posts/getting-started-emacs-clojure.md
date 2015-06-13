@@ -61,7 +61,43 @@ while setting up `lein` and Clojure for you.
 brew install leiningen
 ```
 
-5) Make sure exec path setup in emacs (ex. `/usr/local/bin`)
-6) package-install cider, 4clojure
-7) profiles.clj
-8) What to do for message about "WARNING: CIDER requires nREPL 0.2.7 to work properly"
+5) Configure Emacs
+
+This is mostly an optional step if you already haven't done this. Make
+sure you have something like this in your Emacs config:
+
+```elisp
+(add-to-list 'exec-path "/usr/local/bin")
+```
+
+If your Homebrew install is standard, this is where your binaries
+should be located. If not, adjust the path as necessary.
+
+6) Install Emacs packages `cider`
+
+```elisp
+<kbd>m-x</kbd> `package-install` <kbd>RET</kbd> `cider`
+```
+
+Optionally, if you want to do [4clojure](https://www.4clojure.com/)
+problems in Emacs, also install `4clojure.el`:
+
+```elisp
+<kbd>m-x</kbd> `package-install` <kbd>RET</kdd> `4clojure``
+```
+
+7) Add a `profiles.clj`
+
+In your home directory, create a new `profiles.clj` in `~/.lein/` and put this barebones config to start with:
+
+```clojure
+{:user {:plugins [[cider/cider-nrepl "0.9.0-SNAPSHOT"]]
+        :dependencies [[org.clojure/tools.nrepl "0.2.10"]]}}
+```
+
+*Note - modify the `cider-nrepl` and `tools.nrepl` versions if you
+ have issues. It should match what you installed above.
+
+And there you have it! You should be able to fire up Emacs and start a
+Clojure REPL through `cider` and even answer a few
+[4clojure](https://www.4clojure.com/) questions.
