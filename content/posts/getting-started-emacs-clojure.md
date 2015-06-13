@@ -116,4 +116,3 @@ Clojure. Moving forward, I'm going to try and chronicle my adventures
 learning Clojure.
 
 Happy hacking!
-
