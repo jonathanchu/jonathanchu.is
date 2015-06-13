@@ -13,6 +13,8 @@ config.
 This article will be geared towards beginners, like me, looking to get
 started with Clojure and Emacs on OS X.
 
+<!-- PELICAN_END_SUMMARY -->
+
 1) Install Homebrew - [http://brew.sh/](http://brew.sh/)
 
 I won't go into too much detail here, aside from providing the link
