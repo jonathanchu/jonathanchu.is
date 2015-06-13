@@ -36,10 +36,12 @@ Machine (JVM). You'll need to install the Java Development Kit (JDK).
 
 [Java from Oracle](http://www.oracle.com/technetwork/java/index.html)
 
-You can go to the Java website to download it and install manually,
-but I prefer to let package managers do that for me.
+You can go to the Java website above to download it and install
+manually, but I prefer to let package managers do that for me. It is
+recommended to download at least version 6 of the JDK.
 
-For this, we can install the JDK through Homebrew Cask:
+For this, we can install the JDK through Homebrew Cask, which we will
+need to install:
 
 ```console
 brew install caskroom/cask/brew-cask
