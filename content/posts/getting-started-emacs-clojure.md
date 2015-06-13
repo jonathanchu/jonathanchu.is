@@ -107,7 +107,7 @@ put this barebones config to start with:
 ```
 
 *Note - modify the `cider-nrepl` and `tools.nrepl` versions if you
- have issues. It should match what you installed above.
+ have issues. It should match the versions you have installed above.
 
 And there you have it! You should be able to fire up Emacs and start a
 Clojure REPL through `cider` and even answer a few
