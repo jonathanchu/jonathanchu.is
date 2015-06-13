@@ -39,11 +39,17 @@ For this, we can install the JDK through Homebrew Cask:
 brew install caskroom/cask/brew-cask
 ```
 
-Then, we can simply do:
+3) Install Java
+
+Now that we have Homebrew Cask installed, we can install the JDK by
+simply doing:
 
 ```console
 brew cask install java
 ```
+
+This will pull the latest version of the JDK according to Homebrew
+Casks and install it on your machine.
 
 4) brew install leiningen
 5) Make sure exec path setup in emacs (ex. `/usr/local/bin`)
