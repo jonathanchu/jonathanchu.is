@@ -25,21 +25,26 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 
 2) Install Homebrew Cask
 
-Next, we'll need to install Java.  You can go to the Java website to download it and install manually, but I prefer to let package managers do that for me.
+Next, we'll need to install Java, as Clojure runs on the Java Virtual
+Machine (JVM). You'll need to install the Java Development Kit (JDK).
 
-For this, we'll need to download Java JVM.  We can do so through Homebrew Cask:
+(Java from Oracle)[http://www.oracle.com/technetwork/java/index.html]
+
+You can go to the Java website to download it and install manually,
+but I prefer to let package managers do that for me.
+
+For this, we can install the JDK through Homebrew Cask:
 
 ```console
 brew install caskroom/cask/brew-cask
 ```
 
-Then you can do:
+Then, we can simply do:
 
 ```console
-brew install java
+brew cask install java
 ```
 
-3) brew cask install java
 4) brew install leiningen
 5) Make sure exec path setup in emacs (ex. `/usr/local/bin`)
 6) package-install cider, 4clojure
