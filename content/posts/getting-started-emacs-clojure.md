@@ -76,16 +76,12 @@ should be located. If not, adjust the path as necessary.
 
 6) Install Emacs packages `cider`
 
-```elisp
 <kbd>m-x</kbd> `package-install` <kbd>RET</kbd> `cider`
-```
 
 Optionally, if you want to do [4clojure](https://www.4clojure.com/)
 problems in Emacs, also install `4clojure.el`:
 
-```elisp
-<kbd>m-x</kbd> `package-install` <kbd>RET</kdd> `4clojure``
-```
+<kbd>m-x</kbd> `package-install` <kbd>RET</kdd> `4clojure`
 
 7) Add a `profiles.clj`
 
