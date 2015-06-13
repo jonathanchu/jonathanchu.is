@@ -47,6 +47,9 @@ need to install:
 brew install caskroom/cask/brew-cask
 ```
 
+Homebrew Cask is really useful for managing application installs. No
+more dragging to your `Applications` folder anymore!
+
 3) Install Java
 
 Now that we have Homebrew Cask installed, we can install the JDK by
@@ -57,7 +60,8 @@ brew cask install java
 ```
 
 This will pull the latest version of the JDK according to Homebrew
-Casks and install it on your machine.
+Casks and install it on your machine. It should prompt you for your
+password to proceed with the install.
 
 4) Install Leiningen
 
