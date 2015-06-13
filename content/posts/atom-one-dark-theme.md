@@ -42,5 +42,3 @@ will be forthcoming.
 *In the screenshot, for those curious the font is Inconsolata and I
  use `smart-mode-line`. My whole emacs config can be found in
  essentially one file [here](https://github.com/jonathanchu/dotemacs).*
-
--- June 9, 2015
