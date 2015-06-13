@@ -53,9 +53,9 @@ Casks and install it on your machine.
 
 4) Install Leiningen
 
-[Leiningen](http://leiningen.org/) is a user interface to the Clojure library that helps you
-automate projects and manage dependencies, while setting up `lein` and
-Clojure for you.
+[Leiningen](http://leiningen.org/) is a user interface to the Clojure
+library that helps you automate projects and manage dependencies,
+while setting up `lein` and Clojure for you.
 
 ```console
 brew install leiningen
