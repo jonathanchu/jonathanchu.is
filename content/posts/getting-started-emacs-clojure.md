@@ -94,7 +94,7 @@ should be located. If not, adjust the path as necessary.
 Optionally, if you want to do [4clojure](https://www.4clojure.com/)
 problems in Emacs, also install `4clojure.el`:
 
-<kbd>m-x</kbd> `package-install` <kbd>RET</kdd> `4clojure`
+<kbd>m-x</kbd> `package-install` <kbd>RET</kbd> `4clojure`
 
 7) Add a `profiles.clj`
 
