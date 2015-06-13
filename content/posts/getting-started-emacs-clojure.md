@@ -1,5 +1,5 @@
 Title: Getting Started with Emacs and Clojure on OS X
-Date: 2015-06-12 00:00
+Date: 2015-06-13 00:00
 Slug: getting-started-emacs-clojure-mac-osx
 Category: Emacs
 Tags: emacs, clojure
