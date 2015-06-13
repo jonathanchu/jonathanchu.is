@@ -67,15 +67,17 @@ password to proceed with the install.
 
 [Leiningen](http://leiningen.org/) is a user interface to the Clojure
 library that helps you automate projects and manage dependencies,
-while setting up `lein` and Clojure for you.
+while fully setting up `lein` and Clojure for you.
 
 ```console
 brew install leiningen
 ```
 
+You now have Clojure installed!
+
 5) Configure Emacs
 
-This is mostly an optional step if you already haven't done this. Make
+This is mostly an optional step if you haven't done this already. Make
 sure you have something like this in your Emacs config:
 
 ```elisp
@@ -96,7 +98,8 @@ problems in Emacs, also install `4clojure.el`:
 
 7) Add a `profiles.clj`
 
-In your home directory, create a new `profiles.clj` in `~/.lein/` and put this barebones config to start with:
+In your home directory, create a new `profiles.clj` in `~/.lein/` and
+put this barebones config to start with:
 
 ```clojure
 {:user {:plugins [[cider/cider-nrepl "0.9.0-SNAPSHOT"]]
@@ -108,4 +111,9 @@ In your home directory, create a new `profiles.clj` in `~/.lein/` and put this b
 
 And there you have it! You should be able to fire up Emacs and start a
 Clojure REPL through `cider` and even answer a few
-[4clojure](https://www.4clojure.com/) questions.
+[4clojure](https://www.4clojure.com/) questions as you dive into
+Clojure. Moving forward, I'm going to try and chronicle my adventures
+learning Clojure.
+
+Happy hacking!
+
