@@ -51,7 +51,16 @@ brew cask install java
 This will pull the latest version of the JDK according to Homebrew
 Casks and install it on your machine.
 
-4) brew install leiningen
+4) Install Leiningen
+
+[Leiningen](http://leiningen.org/) is a user interface to the Clojure library that helps you
+automate projects and manage dependencies, while setting up `lein` and
+Clojure for you.
+
+```console
+brew install leiningen
+```
+
 5) Make sure exec path setup in emacs (ex. `/usr/local/bin`)
 6) package-install cider, 4clojure
 7) profiles.clj
