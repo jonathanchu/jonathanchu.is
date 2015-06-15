@@ -7,7 +7,7 @@ Tags: emacs, clojure
 
 I've been learning Clojure in my spare time and coming from a
 predominantly Python-focused career, I wanted to chronicle my
-experiences with learning Clojure and integrating it witin my Emacs
+experiences with learning Clojure and integrating it within my Emacs
 config.
 
 This article will be geared towards beginners, like me, looking to get
