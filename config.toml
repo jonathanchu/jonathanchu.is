@@ -1,0 +1,85 @@
+baseURL = "http://jonathanchu.is"
+languageCode = "en-us"
+title = "jonathanchu.is"
+theme = "coder"
+
+paginate = 20
+canonifyurls = true
+
+pygmentsstyle = "bw"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+[params]
+    author = "Jonathan Chu"
+    description = "Jonathan Chu's personal website"
+    keywords = "blog,developer,personal"
+    info = "Avant code gardener and tryhard"
+    avatarurl = "images/avatar.jpg"
+    footercontent = "ox-hugo."
+
+    dateformat = "January 2, 2006"
+
+    hideCredits = false
+    hideCopyright = false
+
+    # Git Commit in Footer, uncomment the line below to enable it.
+    # commit = "https://github.com/jonathanchu/dotemacs/tree/"
+
+    rtl = false
+
+    # Use inverted colors
+    inverted = false
+
+    # Series see also post count
+    maxSeeAlsoItems = 5
+
+    # Custom CSS
+    custom_css = []
+
+[taxonomies]
+  series = "series"
+
+[[params.social]]
+    name = "Github"
+    icon = "fab fa-github"
+    weight = 1
+    url = "https://github.com/jonathanchu/"
+[[params.social]]
+    name = "Gitlab"
+    icon = "fab fa-gitlab"
+    weight = 2
+    url = "https://gitlab.com/jonathanchu/"
+[[params.social]]
+    name = "Twitter"
+    icon = "fab fa-twitter"
+    weight = 3
+    url = "https://twitter.com/jonathanchu/"
+[[params.social]]
+    name = "LinkedIn"
+    icon = "fab fa-linkedin"
+    weight = 4
+    url = "https://www.linkedin.com/in/jonathanchu13/"
+# [[params.social]]
+#     name = "Medium"
+#     icon = "fab fa-medium"
+#     weight = 5
+#     url = "https://medium.com/@jonathanchu"
+
+# Menu links
+[[menu.main]]
+    name = "Posts"
+    weight = 1
+    url  = "/posts/"
+[[menu.main]]
+    name = "Projects"
+    weight = 2
+    url = "/projects/"
+[[menu.main]]
+    name = "About"
+    weight = 3
+    url = "/about/"
+[[menu.main]]
+    name = "Notes"
+    weight = 4
+    url = "/notes/"
