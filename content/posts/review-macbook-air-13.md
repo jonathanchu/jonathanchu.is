@@ -1,9 +1,13 @@
-Title: Review: MacBook Air 13"
-Date: 2011-01-10 00:00
-Slug: review-macbook-air-13
-Category: Reviews
-Tags: apple, macbook
-
++++
+date = 2011-01-10T00:00:00-04:00
+title = "Review: MacBook Air 13"
+description = ""
+slug = "review-macbook-air-13"
+tags = ["apple", "macbook"]
+categories = ["reviews"]
+externalLink = ""
+series = []
++++
 
 I recently decided to purchase a MacBook Air to use as my primary
 computer, saying goodbye to my previous laptop - a 15" MacBook Pro with

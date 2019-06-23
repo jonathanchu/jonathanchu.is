@@ -1,9 +1,13 @@
-Title: Django 1.5 Custom User Example
-Date: 2013-09-23 00:00
-Slug: django-15-custom-user-example
-Category: Python
-Tags: python, django
-
++++
+date = 2013-09-23T00:00:00-04:00
+title = "Django 1.5 Custom User Example"
+description = ""
+slug = "django-15-custom-user-example"
+tags = ["python", "django"]
+categories = ["python"]
+externalLink = ""
+series = []
++++
 
 With Django 1.5, one of the biggest changes introduced was the ability
 to configure the user model. Anyone who has coded a Django app with a

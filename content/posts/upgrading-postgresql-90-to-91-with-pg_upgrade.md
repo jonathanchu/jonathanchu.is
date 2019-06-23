@@ -1,9 +1,13 @@
-Title: Upgrading PostgreSQL 9.0 to 9.1 with pg_upgrade
-Date: 2012-06-19 00:00
-Slug: upgrading-postgresql-90-to-91-with-pg_upgrade
-Category: Programming
-Tags: postgresql
-
++++
+date = 2012-06-19T00:00:00-04:00
+title = "Upgrading PostgreSQL 9.0 to 9.1 with pg_upgrade"
+description = ""
+slug = "upgrading-postgresql-90-to-91-with-pg_upgrade"
+tags = ["postgresql"]
+categories = ["databases"]
+externalLink = ""
+series = []
++++
 
 Recently, I updated all of the packages I have installed via
 [Homebrew](https://github.com/mxcl/homebrew) and ran into some issues

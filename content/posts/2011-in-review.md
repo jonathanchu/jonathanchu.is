@@ -1,8 +1,13 @@
-Title: 2011 In Review
-Date: 2012-01-21 00:00
-Slug: 2011-in-review
-Category: Miscellaneous
-
++++
+date = 2012-01-21T00:00:00-04:00
+title = "2011 In Review"
+description = ""
+slug = "2011-in-review"
+tags = []
+categories = ["miscellaneous"]
+externalLink = ""
+series = []
++++
 
 Since it seems that everyone and their mother is doing a "year in
 review" post, I find it fitting that I be no different and write one as

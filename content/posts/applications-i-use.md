@@ -1,8 +1,13 @@
-Title: Applications I Use
-Date: 2012-03-02 00:00
-Slug: applications-i-use
-Category: Miscellaneous
-
++++
+date = 2012-03-02T00:00:00-04:00
+title = "Applications I Use"
+description = ""
+slug = "applications-i-use"
+tags = ["macosx"]
+categories = ["miscellaneous"]
+externalLink = ""
+series = []
++++
 
 About two years ago, I bought my dad a MacBook Pro as a gift and with
 him being a long-time Windows user, the transition wasn't seemless to

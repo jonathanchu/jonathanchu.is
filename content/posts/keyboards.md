@@ -1,9 +1,13 @@
-Title: Keyboards
-Date: 2014-04-07 00:00
-Slug: keyboards
-Category: Miscellaneous
-Tags: keyboards
-
++++
+date = 2014-04-07T00:00:00-04:00
+title = "Keyboards"
+description = ""
+slug = "keyboards"
+tags = ["keyboards"]
+categories = ["reviews"]
+externalLink = ""
+series = []
++++
 
 I've tried out a number of keyboards in the past year in an attempt to
 move away from my beloved, but aging, [Microsoft Natural Ergonomic

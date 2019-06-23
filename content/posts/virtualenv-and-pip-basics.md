@@ -1,9 +1,13 @@
-Title: Virtualenv and pip Basics
-Date: 2011-02-09 00:00
-Slug: virtualenv-and-pip-basics
-Category: Python
-Tags: python, virtualenv, pip
-
++++
+date = 2011-02-09T00:00:00-04:00
+title = "Virtualenv and pip Basics"
+description = ""
+slug = "virtualenv-and-pip-basics"
+tags = ["python", "virtualenv", "pip"]
+categories = ["python"]
+externalLink = ""
+series = []
++++
 
 When doing any kind of Python development, one tool I find indispensable
 is [virtualenv](http://pypi.python.org/pypi/virtualenv). Virtualenv,

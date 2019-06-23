@@ -1,0 +1,61 @@
+#+hugo_base_dir: ..
+* Posts
+:PROPERTIES:
+:EXPORT_HUGO_SECTION: posts
+:END:
+** TODO New blog again
+:PROPERTIES:
+:EXPORT_DATE: 2019-06-23T00:00:00-04:00
+:EXPORT_DESCRIPTION: "“
+:EXPORT_FILE_NAME: new-blog-again-redux-two
+:END:
+Example post
+
+* Notes
+:PROPERTIES:
+:EXPORT_HUGO_SECTION: notes
+:END:
+** My first note
+:PROPERTIES:
+:EXPORT_DATE: 2019-06-23T00:00:00-04:00
+:EXPORT_FILE_NAME: my-first-note
+:END:
+This is an example notes post.
+
+* Projects
+:PROPERTIES:
+:EXPORT_HUGO_SECTION: /
+:EXPORT_FILE_NAME: projects
+:END:
+- dotemacs
+- magit-git-toolbelt
+- magit-git-plumbing
+- atom-one-dark-theme
+- emacs-horizon-theme
+- emacs-powerline (deprecated)
+
+* About
+:PROPERTIES:
+:EXPORT_HUGO_SECTION: /
+:EXPORT_FILE_NAME: about
+:END:
+Hello! My name is Jonathan Chu and this is my personal website. I'm a
+software engineer currently living in New Jersey with a passion for
+Python web development. This site is intended to be a place to share
+the things I've learned along the way.
+
+In late 2010, I founded 3atmospheres, a web development shop based in
+New York, where I consulted and worked with a variety of agencies,
+small businesses, and startups in New York.  I've been a remote
+engineer since 2011.
+
+Here are some other places you can find me on the web:
+
+-  [Twitter](https://twitter.com/jonathanchu)
+-  [GitHub](https://github.com/jonathanchu)
+-  [Instagram](https://instagram.com/jonathanchu/)
+-  [Flickr](https://www.flickr.com/photos/jonnychu/)
+-  [LinkedIn](https://www.linkedin.com/in/jonathanchu13)
+-  [Keybase](https://keybase.io/jonathanchu)
+
+You can email me anytime at [me@jonathanchu.is](mailto:me@jonathanchu.is).

@@ -1,9 +1,13 @@
-Title: Getting Started with Emacs and Clojure on OS X
-Date: 2015-06-13 00:00
-Slug: getting-started-emacs-clojure-mac-osx
-Category: Emacs
-Tags: emacs, clojure
-
++++
+date = 2015-06-13T00:00:00-04:00
+title = "Getting Started with Emacs and Clojure on OS X"
+description = ""
+slug = "getting-started-emacs-clojure-mac-osx"
+tags = ["emacs", "clojure"]
+categories = ["emacs"]
+externalLink = ""
+series = []
++++
 
 I've been learning Clojure in my spare time and coming from a
 predominantly Python-focused career, I wanted to chronicle my

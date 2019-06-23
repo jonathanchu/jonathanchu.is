@@ -1,9 +1,13 @@
-Title: Org-Mode and MobileOrg Installation and Config
-Date: 2013-07-10 00:00
-Slug: org-mode-and-mobileorg-installation-and-config
-Category: emacs
-Tags: mobileorg, org-mode, emacs
-
++++
+date = 2013-07-10T00:00:00-04:00
+title = "Org-Mode and MobileOrg Installation and Config"
+description = ""
+slug = "org-mode-and-mobileorg-installation-and-config"
+tags = ["mobileorg", "org-mode", "emacs"]
+categories = ["emacs"]
+externalLink = ""
+series = []
++++
 
 ![MobileOrg](/images/mobileorg_placeit.png)
 

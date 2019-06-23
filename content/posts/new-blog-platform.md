@@ -1,9 +1,13 @@
-Title: New Blog Platform
-Date: 2011-01-18 00:00
-Slug: new-blog-platform
-Category: Python
-Tags: python
-
++++
+date = 2011-01-18T00:00:00-04:00
+title = "New Blog Platform"
+description = ""
+slug = "new-blog-platform"
+tags = ["python"]
+categories = ["python"]
+externalLink = ""
+series = []
++++
 
 After a long blogging hiatus, I recently decided to switch over my
 custom Django blog to a static site generator, following the trend that

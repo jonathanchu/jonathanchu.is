@@ -1,9 +1,13 @@
-Title: Upgrading to Jinja2 Templates in Django 1.8 With Admin
-Date: 2015-04-26 00:00
-Slug: upgrading-jinja2-templates-django-18-with-admin
-Category: Python
-Tags: python, django
-
++++
+date = 2015-04-26T00:00:00-04:00
+title = "Upgrading to Jinja2 Templates in Django 1.8 With Admin"
+description = ""
+slug = "upgrading-jinja2-templates-django-18-with-admin"
+tags = ["python", "django"]
+categories = ["python"]
+externalLink = ""
+series = []
++++
 
 In Django 1.8, a new template system was introduced along with the
 ability to choose a templating engine, with Jinja2 having built-in

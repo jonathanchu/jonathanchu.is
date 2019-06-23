@@ -1,9 +1,13 @@
-Title: Setting Up Deft Mode in Emacs with Org-Mode
-Date: 2013-08-15 00:00
-Slug: setting-up-deft-mode-in-emacs-with-org-mode
-Category: Miscellaneous
-Tags: emacs, org-mode, deft, notes
-
++++
+date = 2013-08-15T00:00:00-04:00
+title = "Setting Up Deft Mode in Emacs with Org-Mode"
+description = ""
+slug = "setting-up-deft-mode-in-emacs-with-org-mode"
+tags = ["emacs", "org-mode", "deft", "notes"]
+categories = ["emacs"]
+externalLink = ""
+series = []
++++
 
 I've been a big fan of [Notational Velocity](http://notational.net/) for
 quite a few years now - and more recently,

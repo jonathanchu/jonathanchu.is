@@ -1,9 +1,13 @@
-Title: Introducing Atom One Dark Theme for Emacs
-Date: 2015-06-09 00:00
-Slug: atom-one-dark-theme-for-emacs
-Category: Emacs
-Tags: emacs
-
++++
+date = 2015-06-09T00:00:00-04:00
+title = "Introducing Atom One Dark Theme for Emacs"
+description = ""
+slug = "atom-one-dark-theme-for-emacs"
+tags = ["emacs"]
+categories = ["emacs"]
+externalLink = ""
+series = []
++++
 
 This past weekend I hacked together a new Emacs color theme that is
 essentially a port of a [Atom.io's](https://atom.io/)
