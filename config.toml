@@ -1,4 +1,4 @@
-baseURL = "http://jonathanchu.is"
+baseURL = "https://jonathanchu.is"
 languageCode = "en-us"
 title = "jonathanchu.is"
 theme = "coder"
