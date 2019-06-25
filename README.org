@@ -1,1 +1,16 @@
+* jonathanchu.is
+
 My new blogs. Let me show you them.
+
+This is my personal website built with [[https://gohugo.io/  ][Hugo]] and [[https://ox-hugo.scripter.co/][ox-hugo]].
+
+** Prerequisites
+Install Hugo
+
+#+BEGIN_SRC shell
+brew install hugo
+#+END_SRC
+
+In Emacs, install ox-hugo and configure in your init.el config by following the ox-hugo instructions below:
+https://ox-hugo.scripter.co/#installation
+https://ox-hugo.scripter.co/#usage
