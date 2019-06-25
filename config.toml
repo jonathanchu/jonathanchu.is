@@ -66,6 +66,14 @@ pygmentscodefencesguesssyntax = true
 #     weight = 5
 #     url = "https://medium.com/@jonathanchu"
 
+[params.source]
+  url = "https://github.com/jonathanchu/jonathanchu.is"
+  org_dir = "content-org"
+  org_file = "content-org/jonathanchu.is.org"
+
+[params.footer]
+  show_powered_by = true
+
 # Menu links
 [[menu.main]]
     name = "Posts"
