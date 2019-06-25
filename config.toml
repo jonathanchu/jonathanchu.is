@@ -69,7 +69,7 @@ pygmentscodefencesguesssyntax = true
 [params.source]
   url = "https://github.com/jonathanchu/jonathanchu.is"
   org_dir = "content-org"
-  org_file = "content-org/jonathanchu.is.org"
+  org_file = "content-org/content.org"
 
 [params.footer]
   show_powered_by = true
