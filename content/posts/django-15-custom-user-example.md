@@ -86,7 +86,7 @@ custom "Users" there. Try it out, take it for a spin, create additional
 users from the admin, change passwords, etc. This all works nicely with
 our custom user model!
 
-![Django Custom User Screenshot](http://i.imgur.com/uaG4qaH.png)
+![Django Custom User Screenshot](https://i.imgur.com/uaG4qaH.png)
 
 Hopefully this is helpful to some out there looking for a solid example
 on customizing the User model. Any issues with the codebase, please use

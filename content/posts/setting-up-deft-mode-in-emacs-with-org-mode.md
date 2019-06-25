@@ -113,13 +113,13 @@ To enter the Deft buffer, simply do:
 And you should see the Deft buffer like so, with all of your org-files
 (yes, I know - nothing is blurred out...I got nothing to hide :P ):
 
-![Deft buffer screenshot](http://cl.ly/image/3r06392e2r3B/Screen%20Shot%202013-08-15%20at%202.42.37%20AM.png)
+![Deft buffer screenshot](https://cl.ly/image/3r06392e2r3B/Screen%20Shot%202013-08-15%20at%202.42.37%20AM.png)
 
 Start typing and you'll see the list of notes filter out the results
 that do not match, just like Notational Velocity. Hit ENTER to open the
 note in a new buffer.
 
-![Deft filter screenshot](http://cl.ly/image/1n1S41400T16/Screen%20Shot%202013-08-15%20at%202.43.03%20AM.png)
+![Deft filter screenshot](https://cl.ly/image/1n1S41400T16/Screen%20Shot%202013-08-15%20at%202.43.03%20AM.png)
 
 And there you have it! Much appreciation and thanks goes to [Jason
 Blevins](http://jblevins.org/) for this awesome mode that has
