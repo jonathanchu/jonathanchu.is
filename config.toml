@@ -2,6 +2,7 @@ baseURL = "https://jonathanchu.is"
 languageCode = "en-us"
 title = "jonathanchu.is"
 theme = "coder"
+googleAnalytics = "UA-61541020-1"
 
 paginate = 20
 canonifyurls = true
