@@ -15,13 +15,22 @@ Example post
 :PROPERTIES:
 :EXPORT_HUGO_SECTION: notes
 :END:
-** My first note
+** Leiningen Basics
 :PROPERTIES:
-:EXPORT_DATE: 2019-06-23T00:00:00-04:00
-:EXPORT_FILE_NAME: my-first-note
+:EXPORT_DATE: 2019-08-15T00:00:00-04:00
+:EXPORT_FILE_NAME: leiningen-basics
+:EXPORT_HUGO_CODE_FENCE: t
 :END:
-This is an example notes post.
-
+For Mac OS X, you can install =leiningen= via =homebrew=:
+#+BEGIN_SRC shell
+brew install leiningen
+#+END_SRC
+*** =lein run=
+Runs the current leiningen project.
+*** =lein uberjar=
+Compiles the project in a standalone binary so it can be invoked by =java -jar target/uberjar/clojure-noob-0.1.0-SNAPSHOT-standalone.jar=.
+*** =lein repl=
+Start a REPL for experimenting with code.
 * Projects
 :PROPERTIES:
 :EXPORT_HUGO_SECTION: /
