@@ -39,3 +39,17 @@ Oops, we slurped in the `4` by accident!  Let's unslurp it by barfing it out.
 ;; Keybinding C-}
 (+ 1 (* 2 3) 4)
 ```
+
+
+## `paredit-splice-sexp-killing-backward` {#paredit-splice-sexp-killing-backward}
+
+```emacs-lisp
+(def process-bags
+     (comp
+      (mapcatting unbundled-pallet)
+      (filtering non-food?)|
+      (mapping heavy-label)))
+;; Keybinding M-⬆
+(def process-bags
+     (mapping heavy-label))
+```
