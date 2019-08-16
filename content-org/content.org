@@ -65,10 +65,33 @@ Oops, we slurped in the =4= by accident!  Let's unslurp it by barfing it out.
      (comp
       (mapcatting unbundled-pallet)
       (filtering non-food?)|
-      (mapping heavy-label)))
+      (mapping heavy-label))pp)
 ;; Keybinding M-<up arrow>
 (def process-bags
      (mapping heavy-label))
+#+END_SRC
+** Clojure Basics
+:PROPERTIES:
+:EXPORT_DATE: 2019-08-16T00:00:00-04:00
+:EXPORT_FILE_NAME: clojure-basics
+:EXPORT_HUGO_CODE_FENCE: t
+:END:
+These are my notes as I go through the book [[https://www.braveclojure.com/][Clojure for the Brave and True]]
+*** Control Flow
+**** if
+#+BEGIN_SRC clojure
+(if boolean-form
+  then-form
+  optional-else-form)
+#+END_SRC
+**** do
+#+BEGIN_SRC clojure
+
+#+END_SRC
+
+**** when
+#+BEGIN_SRC clojure
+
 #+END_SRC
 
 * Projects
