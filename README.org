@@ -1,3 +1,6 @@
+#+STARTUP: showall
+#+TITLE: README
+
 [[https://app.netlify.com/sites/jonathanchu/deploys][https://api.netlify.com/api/v1/badges/3f0f1bda-2338-4eca-afeb-e5db1eeccfc4/deploy-status.svg]]
 
 * jonathanchu.is
@@ -14,5 +17,25 @@ brew install hugo
 #+END_SRC
 
 In Emacs, install ox-hugo and configure in your init.el config by following the ox-hugo instructions below:
-https://ox-hugo.scripter.co/#installation
-https://ox-hugo.scripter.co/#usage
+- https://ox-hugo.scripter.co/#installation
+- https://ox-hugo.scripter.co/#usage
+
+** Local development
+
+Since this is a Hugo site, you can run this locally with this command:
+
+#+BEGIN_SRC shell
+hugo server -D
+#+END_SRC
+
+After making some changes to `content-org/content.org`, you can export all valid Hugo subtrees with:
+
+@@html:<kbd>@@C-c C-e H A@@html:</kbd>@@
+
+** Deploying
+
+You can deploy the latest changes by simply pushing to master:
+
+#+BEGIN_SRC shell
+git push origin master
+#+END_SRC
