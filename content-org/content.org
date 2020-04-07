@@ -10,7 +10,19 @@
 :EXPORT_FILE_NAME: new-blog-again-redux-two
 :END:
 Example post
+** EmacsConf 2019 Magit Deep Dive
+:PROPERTIES:
+:EXPORT_DATE: 2020-04-07T00:00:00-04:00
+:EXPORT_DESCRIPTION: "“
+:EXPORT_FILE_NAME: emacsconf2019-magit-deep-dive
+:END:
+I was fortunate enough to get to present at EmacsConf 2019 in November of last year and I wanted to share the content from my presentation:
 
+{{<youtube vS7YNdl64gY>}}
+
+And here's the source for my org slides on GitHub:
+
+https://github.com/jonathanchu/emacsconf-2019-magit-deep-dive
 * Notes
 :PROPERTIES:
 :EXPORT_HUGO_SECTION: notes
