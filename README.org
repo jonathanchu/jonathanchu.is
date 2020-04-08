@@ -1,5 +1,4 @@
 #+STARTUP: showall
-#+TITLE: README
 
 [[https://app.netlify.com/sites/jonathanchu/deploys][https://api.netlify.com/api/v1/badges/3f0f1bda-2338-4eca-afeb-e5db1eeccfc4/deploy-status.svg]]
 
