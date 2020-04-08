@@ -38,6 +38,10 @@ pygmentscodefencesguesssyntax = true
     # Custom CSS
     custom_css = []
 
+    # Favicons
+    favicon_32 = "images/favicon-32x32.ico"
+    favicon_16 = "images/favicon-16x16.ico"
+
 [taxonomies]
   series = "series"
 
