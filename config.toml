@@ -13,8 +13,8 @@ pygmentscodefencesguesssyntax = true
 
 [params]
     author = "Jonathan Chu"
-    description = "Jonathan Chu's personal website"
-    keywords = "blog,developer,personal"
+    description = "Personal website of Jonathan Chu."
+    # keywords = "blog, developer, personal, jonathan chu"
     info = "Engineering Manager at Simple Health. Currently studying deep learning, dabbling with Clojure and having fun with my emacs config."
     avatarurl = "images/avatar.jpg"
     footercontent = "ox-hugo."
