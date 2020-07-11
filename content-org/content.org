@@ -23,6 +23,122 @@ I was fortunate enough to get to present at EmacsConf 2019 in November of last y
 And here's the source for my org slides on GitHub:
 
 https://github.com/jonathanchu/emacsconf-2019-magit-deep-dive
+** TODO Emacs, Notmuch, isync, and msmtp Setup
+:PROPERTIES:
+:EXPORT_DATE: 2020-06-23T00:00:00-04:00
+:EXPORT_DESCRIPTION: "How to setup notmuch, isync, and msmtp with Emacs.“
+:EXPORT_FILE_NAME: emacs-notmuch-isync-msmtp-setup
+:END:
+I've been meaning to move my email management to Emacs for the past year and finally made the jump after see [[https://cestlaz.github.io/stories/emacs/][Mike Zamansky's]] video on this ([[https://www.youtube.com/watch?v=GlrsoIwJ-UM][YouTube]]). Here are my notes on how I got this all setup and configured.
+
+This is an opinionated setup based on Mac OS X and Fastmail. First, make sure you have [[https://brew.sh/][Homebrew]] installed to install the packages needed.
+
+**** Receiving email
+
+[[https://notmuchmail.org/][Notmuch]] requires email to be stored on your local filesystem and one message per file. We'll be using =isync= for this.
+
+#+BEGIN_SRC shell
+$ brew install isync
+#+END_SRC
+
+http://isync.sourceforge.net/
+
+You'll need to start out with an initial config which you can copy directly to your home directory.
+
+My =.mbsyncrc= file looks like this:
+
+#+BEGIN_SRC
+# First section: remote IMAP account
+IMAPAccount fastmail
+Host imap.fastmail.com
+Port 993
+User jonathanchu@fastmail.com
+# For simplicity, this is how to read the password from another file.
+# For better security you should use GPG https://gnupg.org/
+PassCmd "cat ~/.mbsync-fastmail"
+SSLType IMAPS
+SSLVersions TLSv1.2
+
+IMAPStore fastmail-remote
+Account fastmail
+
+# This section describes the local storage
+MaildirStore fastmail-local
+Path ~/Maildir/
+Inbox ~/Maildir/INBOX
+SubFolders Verbatim
+
+# This section a "channel", a connection between remote and local
+Channel fastmail
+Master :fastmail-remote:
+Slave :fastmail-local:
+Patterns *
+Expunge None
+CopyArrivalDate yes
+Sync All
+Create Slave
+SyncState *
+#+END_SRC
+
+The contents of =.mbsync-fastmail= contains my email password, which is probably not the best way to do store a password like this locally so I should fix this in the near future.
+
+Once this is configured and saved in your home directory, you can then run run =mbsync= to pull your email down locally:
+
+#+BEGIN_SRC shell
+$ mbsync -a
+#+END_SRC
+
+Note, you'll have to run this each time to retrieve new mail. I know some folks might elect to have this as a running cron job every x minutes - this can be entirely based on your preference and email workflow.
+
+**** Viewing and writing email
+
+We're going to use =Notmuch=, specifically in Emacs, to view our mail. First, you need to install =Notmuch= on your OS:
+
+#+BEGIN_SRC shell
+$ brew install notmuch
+#+END_SRC
+
+Then, in your Emacs configuration, you can install =notmuch-emacs= by including the following:
+
+#+BEGIN_SRC elisp
+(use-package notmuch
+  :ensure t
+  :defer t)
+#+END_SRC
+
+TODO Run notmuch setup and/or copy over =.notmuch-config= as an example.
+
+Then, you can run =m-x notmuch-hello= and you will be greeted with the =notmuch= starting screen.
+
+<screenshot>
+
+**** Sending email
+Next, we'll need to send our mail with something, so I chose `msmtp` because of how easy it was to configure.
+
+#+BEGIN_SRC shell
+$ brew install msmtp
+#+END_SRC
+
+The contents of my =.msmtprc= file looks like this:
+
+#+BEGIN_SRC
+defaults
+auth on
+protocol smtp
+tls on
+
+account fastmail
+host smtp.fastmail.com
+port 465
+user jonathanchu@fastmail.com
+passwordeval "cat ~/.mbsync-fastmail"
+tls_starttls off
+from jonathanchu@fastmail.com
+
+account default : fastmail
+#+END_SRC
+
+
 * Notes
 :PROPERTIES:
 :EXPORT_HUGO_SECTION: notes
