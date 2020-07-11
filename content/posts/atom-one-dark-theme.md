@@ -13,7 +13,7 @@ This past weekend I hacked together a new Emacs color theme that is
 essentially a port of a [Atom.io's](https://atom.io/)
 [One Dark theme](https://atom.io/themes/one-dark-syntax).
 
-<img src="/images/atom_one_dark_theme_emacs.png" alt="Atom One Dark Theme for Emacs screenshot" width="510px" class="centered">
+![Atom One Dark Theme for Emacs screenshot](/images/atom_one_dark_theme_emacs.png)
 
 <!-- PELICAN_END_SUMMARY -->
 
