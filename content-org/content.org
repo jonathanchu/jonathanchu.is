@@ -23,7 +23,7 @@ I was fortunate enough to get to present at EmacsConf 2019 in November of last y
 And here's the source for my org slides on GitHub:
 
 https://github.com/jonathanchu/emacsconf-2019-magit-deep-dive
-** TODO Emacs, Notmuch, isync, and msmtp Setup
+** Emacs, Notmuch, isync, and msmtp Setup
 :PROPERTIES:
 :EXPORT_DATE: 2020-06-23T00:00:00-04:00
 :EXPORT_DESCRIPTION: "How to setup notmuch, isync, and msmtp with Emacs.“
@@ -110,10 +110,16 @@ TODO Run notmuch setup and/or copy over =.notmuch-config= as an example.
 
 Then, you can run =m-x notmuch-hello= and you will be greeted with the =notmuch= starting screen.
 
-<screenshot>
+#+CAPTION: m-x notmuch-hello
+#+NAME: fig:notmuch-hello
+[[/images/notmuch-hello.png]]
+
+#+CAPTION: notmuch unread
+#+NAME: fig:notmuch unread
+[[/images/notmuch-unread.png]]
 
 **** Sending email
-Next, we'll need to send our mail with something, so I chose `msmtp` because of how easy it was to configure.
+Next, we'll need to send our mail with something, so I chose =msmtp= because of how easy it was to configure.
 
 #+BEGIN_SRC shell
 $ brew install msmtp
@@ -138,7 +144,7 @@ from jonathanchu@fastmail.com
 account default : fastmail
 #+END_SRC
 
-
+This article will be updated as I refine my email process and work out the bugs, but at this point you should have working email with Notmuch in Emacs!
 * Notes
 :PROPERTIES:
 :EXPORT_HUGO_SECTION: notes

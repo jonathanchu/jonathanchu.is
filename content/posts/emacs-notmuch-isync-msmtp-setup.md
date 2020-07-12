@@ -3,7 +3,7 @@ title = "Emacs, Notmuch, isync, and msmtp Setup"
 author = ["Jonathan Chu"]
 description = "\"How to setup notmuch, isync, and msmtp with Emacs.“"
 date = 2020-06-23T00:00:00-04:00
-draft = true
+draft = false
 +++
 
 I've been meaning to move my email management to Emacs for the past year and finally made the jump after see [Mike Zamansky's](https://cestlaz.github.io/stories/emacs/) video on this ([YouTube](https://www.youtube.com/watch?v=GlrsoIwJ-UM)). Here are my notes on how I got this all setup and configured.
@@ -89,12 +89,18 @@ TODO Run notmuch setup and/or copy over `.notmuch-config` as an example.
 
 Then, you can run `m-x notmuch-hello` and you will be greeted with the `notmuch` starting screen.
 
-<screenshot>
+<a id="orgefeda9c"></a>
+
+{{< figure src="/images/notmuch-hello.png" caption="Figure 1: m-x notmuch-hello" >}}
+
+<a id="org09636e6"></a>
+
+{{< figure src="/images/notmuch-unread.png" caption="Figure 2: notmuch unread" >}}
 
 
 ## Sending email {#sending-email}
 
-Next, we'll need to send our mail with something, so I chose \`msmtp\` because of how easy it was to configure.
+Next, we'll need to send our mail with something, so I chose `msmtp` because of how easy it was to configure.
 
 ```shell
 $ brew install msmtp
@@ -118,3 +124,5 @@ from jonathanchu@fastmail.com
 
 account default : fastmail
 ```
+
+This article will be updated as I refine my email process and work out the bugs, but at this point you should have working email with Notmuch in Emacs!
