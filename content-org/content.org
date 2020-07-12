@@ -150,7 +150,7 @@ account default : fastmail
 
 This article will be updated as I refine my email process and work out the bugs, but at this point you should have working email with Notmuch in Emacs!
 
-*** TODO Dark mode toggle for iTerm and Emacs
+** TODO Dark mode toggle for iTerm and Emacs
  :PROPERTIES:
  :EXPORT_DATE: 2020-07-12T00:00:00-04:00
  :EXPORT_DESCRIPTION: "How to do dark and light mode toggle with iTerm and Emacs“

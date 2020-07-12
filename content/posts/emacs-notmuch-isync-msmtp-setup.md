@@ -94,11 +94,11 @@ When you have entered your email information, in your Emacs configuration, you c
 
 Then, you can run `m-x notmuch-hello` and you will be greeted with the `notmuch` starting screen.
 
-<a id="orgc7d16f2"></a>
+<a id="orgb5da27b"></a>
 
 {{< figure src="/images/notmuch-hello.png" caption="Figure 1: m-x notmuch-hello" >}}
 
-<a id="org610068e"></a>
+<a id="org15c95ba"></a>
 
 {{< figure src="/images/notmuch-unread.png" caption="Figure 2: notmuch unread" >}}
 
@@ -131,6 +131,3 @@ account default : fastmail
 ```
 
 This article will be updated as I refine my email process and work out the bugs, but at this point you should have working email with Notmuch in Emacs!
-
-
-## <span class="org-todo todo TODO">TODO</span> Dark mode toggle for iTerm and Emacs {#dark-mode-toggle-for-iterm-and-emacs}
