@@ -38,8 +38,7 @@ breakdown of the MS Natural 4000:
 4000](http://www.amazon.com/Microsoft-Natural-Ergonomic-Keyboard-4000/dp/B000A6PPOK)
 (\*stock photo)
 
-<img src="/images/microsoft-natural-4000.jpg" alt="Microsoft Natural Ergonomic Keyboard 4000" width="510px">
-
+![Microsoft Natural Ergonomic Keyboard 4000](/images/microsoft-natural-4000.jpg)
 
 Pros:
 
@@ -66,7 +65,7 @@ her shows.
 [Das Ultimate S](http://www.daskeyboard.com/model-s-ultimate/) (\*stock
 photo)
 
-<img src="/images/das-ultimate-s.jpg" atl="Das Ultimate S" width="510px">
+![Das Ultimate S](/images/das-ultimate-s.jpg)
 
 Pros:
 
@@ -91,7 +90,7 @@ found this even more annoying as this led to lots of simple errors.
 [Kinesis Maxim](http://www.kinesis-ergo.com/shop/maxim-for-pc/) (\*stock
 photo)
 
-<img src="/images/kinesis-maxim.jpg" atl="Kinesis Maxim" width="510px">
+![Kinesis Maxim](/images/kinesis-maxim.jpg)
 
 Pros:
 
@@ -119,7 +118,7 @@ things to make it more "up-to-date".
 [Microsoft Sculpt
 Ergonomic](http://www.amazon.com/Microsoft-Sculpt-Ergonomic-Desktop-L5V-00001/dp/B00CYX54C0)
 
-<img src="/images/microsoft-sculpt-ergonomic.jpg" atl="Microsoft Sculpt Ergonomic" width="510px">
+![Microsoft Sculpt Ergonomic](/images/microsoft-sculpt-ergonomic.jpg)
 
 Pros:
 
@@ -152,11 +151,11 @@ down to 30-40 WPM with about 1-2 errors.
 [Kinesis
 Advantage](https://www.kinesis-ergo.com/shop/advantage-for-pc-mac/)
 
-<img src="/images/kinesis-advantage.jpg" atl="Kinesis Advantage Full" width="510px">
+![Kinesis Advantage Full](/images/kinesis-advantage.jpg)
 
-<img src="/images/kinesis-advantage-left-side.jpg" atl="Kinesis Advantage Left Side" width="510px">
+![Kinesis Advantage Left Side](/images/kinesis-advantage-left-side.jpg)
 
-<img src="/images/kinesis-advantage-right-side.jpg" atl="Kinesis Advantage Right Side" width="510px">
+![Kinesis Advantage Right Side](/images/kinesis-advantage-right-side.jpg)
 
 Pros:
 
@@ -184,7 +183,7 @@ anyway.
 [Happy Hacking Professional
 2](https://elitekeyboards.com/products.php?sub=pfu_keyboards,hhkbpro2&pid=pdkb400w)
 
-<img src="/images/happy-hacking-pro-2.jpg" atl="Happy Hacking Professional 2" width="510px">
+![Happy Hacking Professional 2](/images/happy-hacking-pro-2.jpg)
 
 Pros:
 
@@ -213,7 +212,7 @@ shake out hands.)
 [Realforce
 104U](https://elitekeyboards.com/products.php?sub=topre_keyboards,rf104&pid=xf01t0)
 
-<img src="/images/realforce-104u.jpg" atl="Realforce 104U" width="510px">
+![Realforce 104U](/images/realforce-104u.jpg)
 
 Pros:
 
@@ -221,7 +220,7 @@ Pros:
   keys, 35g on outside
   [pic](https://elitekeyboards.com/proddata/images/th/104u_ergochart_1000_th0x0.png)
 * It is a solid keyboard - makes me feel safe if I ever have to
-  fight off any bad guys with this keyboard (wanted-keyboard.gif)
+  fight off any bad guys with this keyboard
 * Traditional look - almost like an old [IBM
   keyboard](http://en.wikipedia.org/wiki/Model_M_keyboard), so
   definitely no learing curve here
