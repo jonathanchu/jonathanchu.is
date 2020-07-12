@@ -3,6 +3,7 @@ title = "Emacs, Notmuch, isync, and msmtp Setup"
 author = ["Jonathan Chu"]
 description = "\"How to setup notmuch, isync, and msmtp with Emacs.“"
 date = 2020-06-23T00:00:00-04:00
+tags = ["emacs"]
 draft = false
 +++
 
@@ -89,11 +90,11 @@ TODO Run notmuch setup and/or copy over `.notmuch-config` as an example.
 
 Then, you can run `m-x notmuch-hello` and you will be greeted with the `notmuch` starting screen.
 
-<a id="orgefeda9c"></a>
+<a id="org3502202"></a>
 
 {{< figure src="/images/notmuch-hello.png" caption="Figure 1: m-x notmuch-hello" >}}
 
-<a id="org09636e6"></a>
+<a id="orgd823806"></a>
 
 {{< figure src="/images/notmuch-unread.png" caption="Figure 2: notmuch unread" >}}
 
