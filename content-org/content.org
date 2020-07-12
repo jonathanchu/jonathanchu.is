@@ -3,7 +3,7 @@
 :PROPERTIES:
 :EXPORT_HUGO_SECTION: posts
 :END:
-** TODO Dark mode toggle for iTerm and Emacs                            :emacs:
+** Dark Mode Toggle for iTerm and Emacs                            :emacs:
  :PROPERTIES:
  :EXPORT_DATE: 2020-07-12T00:00:00-04:00
  :EXPORT_DESCRIPTION: "How to do dark and light mode toggle with iTerm and Emacs“

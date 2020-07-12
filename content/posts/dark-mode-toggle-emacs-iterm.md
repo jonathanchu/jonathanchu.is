@@ -1,10 +1,10 @@
 +++
-title = "Dark mode toggle for iTerm and Emacs"
+title = "Dark Mode Toggle for iTerm and Emacs"
 author = ["Jonathan Chu"]
 description = "\"How to do dark and light mode toggle with iTerm and Emacs“"
 date = 2020-07-12T00:00:00-04:00
 tags = ["emacs"]
-draft = true
+draft = false
 +++
 
 For most of my life, I've always preferred a dark theme when it comes to coding whether I'm in Emacs or the terminal. Lately though, the past two years specifically, I've switched to a light theme for both Emacs and iTerm. I really don't have a better rationale other than I feel like the lighter theme means it's "work" time and helps me focus, whereas a dark theme would be more suitable if I was coding at night and wanted to save some eye strain from a full day of looking at a computer screen.
