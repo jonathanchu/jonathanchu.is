@@ -5,7 +5,7 @@
 :END:
 ** TODO New blog again
 :PROPERTIES:
-:EXPORT_DATE: 2019-06-23T00:00:00-04:00
+:EXPORT_DATE: 2020-07-12T00:00:00-04:00
 :EXPORT_DESCRIPTION: "“
 :EXPORT_FILE_NAME: new-blog-again-redux-two
 :END:
@@ -98,15 +98,19 @@ We're going to use =Notmuch=, specifically in Emacs, to view our mail. First, yo
 $ brew install notmuch
 #+END_SRC
 
-Then, in your Emacs configuration, you can install =notmuch-emacs= by including the following:
+Once =notmuch= is installed, run the following command to setup =notmuch=. This will create a =.notmuch-config= in your home directory.
+
+#+BEGIN_SRC shell
+$ notmuch setup
+#+END_SRC
+
+When you have entered your email information, in your Emacs configuration, you can install =notmuch-emacs= by including the following:
 
 #+BEGIN_SRC elisp
 (use-package notmuch
   :ensure t
   :defer t)
 #+END_SRC
-
-TODO Run notmuch setup and/or copy over =.notmuch-config= as an example.
 
 Then, you can run =m-x notmuch-hello= and you will be greeted with the =notmuch= starting screen.
 
@@ -145,6 +149,14 @@ account default : fastmail
 #+END_SRC
 
 This article will be updated as I refine my email process and work out the bugs, but at this point you should have working email with Notmuch in Emacs!
+
+**** TODO Dark mode toggle for iTerm and Emacs
+ :PROPERTIES:
+ :EXPORT_DATE: 2020-07-12T00:00:00-04:00
+ :EXPORT_DESCRIPTION: "How to do dark and light mode toggle with iTerm and Emacs“
+ :EXPORT_FILE_NAME: dark-mode-toggle-emacs-iterm
+ :END:
+
 * Notes
 :PROPERTIES:
 :EXPORT_HUGO_SECTION: notes

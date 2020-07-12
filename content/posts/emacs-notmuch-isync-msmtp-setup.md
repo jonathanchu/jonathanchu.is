@@ -78,7 +78,13 @@ We're going to use `Notmuch`, specifically in Emacs, to view our mail. First, yo
 $ brew install notmuch
 ```
 
-Then, in your Emacs configuration, you can install `notmuch-emacs` by including the following:
+Once `notmuch` is installed, run the following command to setup `notmuch`. This will create a `.notmuch-config` in your home directory.
+
+```shell
+$ notmuch setup
+```
+
+When you have entered your email information, in your Emacs configuration, you can install `notmuch-emacs` by including the following:
 
 ```elisp
 (use-package notmuch
@@ -86,15 +92,13 @@ Then, in your Emacs configuration, you can install `notmuch-emacs` by including 
   :defer t)
 ```
 
-TODO Run notmuch setup and/or copy over `.notmuch-config` as an example.
-
 Then, you can run `m-x notmuch-hello` and you will be greeted with the `notmuch` starting screen.
 
-<a id="org3502202"></a>
+<a id="orgc7d16f2"></a>
 
 {{< figure src="/images/notmuch-hello.png" caption="Figure 1: m-x notmuch-hello" >}}
 
-<a id="orgd823806"></a>
+<a id="org610068e"></a>
 
 {{< figure src="/images/notmuch-unread.png" caption="Figure 2: notmuch unread" >}}
 
@@ -127,3 +131,6 @@ account default : fastmail
 ```
 
 This article will be updated as I refine my email process and work out the bugs, but at this point you should have working email with Notmuch in Emacs!
+
+
+## <span class="org-todo todo TODO">TODO</span> Dark mode toggle for iTerm and Emacs {#dark-mode-toggle-for-iterm-and-emacs}
