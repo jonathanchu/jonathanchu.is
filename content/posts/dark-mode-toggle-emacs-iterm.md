@@ -43,7 +43,7 @@ Filename: iterm2\_dark\_theme.py
 import iterm2
 
 async def main(connection):
-    # Get the color preset we'd lik
+    # Get the color preset we'd like
     preset = await iterm2.ColorPreset.async_get(connection, "One Dark")
     profiles = await iterm2.PartialProfile.async_query(connection)
     for partial in profiles:
