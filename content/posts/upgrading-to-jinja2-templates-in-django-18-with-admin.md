@@ -15,7 +15,7 @@ support. I tried this out on a newly created Django project and
 getting setup with Jinja2 was trivial following the docs; however,
 upon checking the `/admin` page, I was greeted with this:
 
-<img src="/images/django_admin_error_screenshot.png" alt="Django Admin error screenshot" width="510px" class="centered">
+![Django Admin error screenshot](/images/django_admin_error_screenshot.png)
 
 Ah, right! The contrib app Admin does not ship with Jinja2 templates.
 I read through the docs and did not see any mention of using a
