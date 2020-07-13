@@ -174,6 +174,12 @@ $ mbsync -a
 
 Note, you'll have to run this each time to retrieve new mail. I know some folks might elect to have this as a running cron job every x minutes - this can be entirely based on your preference and email workflow.
 
+And finally, we just need to setup a search database for =notmuch= to work by running:
+
+#+BEGIN_SRC shell
+$ notmuch new
+#+END_SRC
+
 **** Viewing and writing email
 
 We're going to use =Notmuch=, specifically in Emacs, to view our mail. First, you need to install =Notmuch= on your OS:

@@ -69,6 +69,12 @@ $ mbsync -a
 
 Note, you'll have to run this each time to retrieve new mail. I know some folks might elect to have this as a running cron job every x minutes - this can be entirely based on your preference and email workflow.
 
+And finally, we just need to setup a search database for `notmuch` to work by running:
+
+```shell
+$ notmuch new
+```
+
 
 ## Viewing and writing email {#viewing-and-writing-email}
 
@@ -94,11 +100,11 @@ When you have entered your email information, in your Emacs configuration, you c
 
 Then, you can run `m-x notmuch-hello` and you will be greeted with the `notmuch` starting screen.
 
-<a id="orgb5da27b"></a>
+<a id="org382d4b7"></a>
 
 {{< figure src="/images/notmuch-hello.png" caption="Figure 1: m-x notmuch-hello" >}}
 
-<a id="org15c95ba"></a>
+<a id="orgf60ee7e"></a>
 
 {{< figure src="/images/notmuch-unread.png" caption="Figure 2: notmuch unread" >}}
 
