@@ -238,6 +238,16 @@ from jonathanchu@fastmail.com
 account default : fastmail
 #+END_SRC
 
+Add this bit in your Emacs config:
+
+#+BEGIN_SRC emacs-lisp
+(setq send-mail-function 'sendmail-send-it
+      sendmail-program "/usr/local/bin/msmtp"
+      mail-specify-envelope-from t
+      message-sendmail-envelope-from 'header
+      mail-envelope-from 'header)
+#+END_SRC
+
 This article will be updated as I refine my email process and work out the bugs, but at this point you should have working email with Notmuch in Emacs!
 
 * Notes

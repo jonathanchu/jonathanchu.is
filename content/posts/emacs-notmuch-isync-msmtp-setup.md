@@ -100,11 +100,11 @@ When you have entered your email information, in your Emacs configuration, you c
 
 Then, you can run `m-x notmuch-hello` and you will be greeted with the `notmuch` starting screen.
 
-<a id="org382d4b7"></a>
+<a id="orged7a5f4"></a>
 
 {{< figure src="/images/notmuch-hello.png" caption="Figure 1: m-x notmuch-hello" >}}
 
-<a id="orgf60ee7e"></a>
+<a id="orgd900945"></a>
 
 {{< figure src="/images/notmuch-unread.png" caption="Figure 2: notmuch unread" >}}
 
@@ -134,6 +134,16 @@ tls_starttls off
 from jonathanchu@fastmail.com
 
 account default : fastmail
+```
+
+Add this bit in your Emacs config:
+
+```emacs-lisp
+(setq send-mail-function 'sendmail-send-it
+      sendmail-program "/usr/local/bin/msmtp"
+      mail-specify-envelope-from t
+      message-sendmail-envelope-from 'header
+      mail-envelope-from 'header)
 ```
 
 This article will be updated as I refine my email process and work out the bugs, but at this point you should have working email with Notmuch in Emacs!
