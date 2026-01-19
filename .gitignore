@@ -5,3 +5,6 @@ output/
 cache/
 node_modules/
 *.pid
+public/
+resources/
+.hugo_build.lock

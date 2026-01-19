@@ -4,12 +4,16 @@ title = "jonathanchu.is"
 theme = "coder"
 googleAnalytics = "UA-61541020-1"
 
-paginate = 20
-canonifyurls = true
+canonifyURLs = true
 
-pygmentsstyle = "emacs"
-pygmentscodefences = true
-pygmentscodefencesguesssyntax = true
+[pagination]
+  pagerSize = 20
+
+[markup]
+  [markup.highlight]
+    style = "emacs"
+    codeFences = true
+    guessSyntax = true
 
 [params]
     author = "Jonathan Chu"
