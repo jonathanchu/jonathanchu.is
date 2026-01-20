@@ -6,7 +6,7 @@ description = """
   """
 date = 2026-01-19T18:40:09-05:00
 tags = ["emacs", "books", "clojure", "git"]
-draft = true
+draft = false
 +++
 
 I've always been interested in developer experience and understanding the metrics often used to measure this unique type of productivity. It's extremely enticing to think that If I could change my tooling, gain insight through telemetry and other metrics, I could potentially "game" a better and more fullfilling developer experience overall - and ultimately over-achieve when typically I would just coast through. The experience I'm talking about improving is not so much solely about the 9-5 day job work, but more about the overarching craft of engineering. Whether you're coding away on pet projects on nights and weekends, tinkering with editors or Linux distros, or learning new technologies and programming languages for work, the underlying takeaways and insights one could gain from these developer experience metrics would carry over to all tangible coding activities that we do.
