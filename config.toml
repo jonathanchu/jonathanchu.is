@@ -9,6 +9,9 @@ canonifyURLs = true
 [pagination]
   pagerSize = 20
 
+[markup.goldmark.renderer]
+    unsafe = true
+
 [markup]
   [markup.highlight]
     style = "emacs"
