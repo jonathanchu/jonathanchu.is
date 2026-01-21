@@ -3,3 +3,30 @@ body {
   background-color: #FAFAFA;
   font-weight: 400;
 }
+
+/* Inline code */
+code {
+  background-color: rgba(175, 184, 193, 0.2) !important;
+  border-radius: 6px;
+  padding: 0.2em 0.4em;
+  font-size: 85%;
+  border: none;
+}
+
+/* Code blocks */
+pre,
+.highlight pre {
+  background-color: #f6f8fa !important;
+  border: 1px solid #d0d7de;
+  border-radius: 6px;
+  padding: 16px;
+  overflow: auto;
+}
+
+pre code,
+.highlight pre code {
+  background-color: transparent !important;
+  padding: 0;
+  border: none;
+  font-size: 100%;
+}
