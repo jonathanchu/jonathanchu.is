@@ -636,12 +636,12 @@ These are my notes as I go through the book [[https://www.braveclojure.com/][Clo
 :EXPORT_HUGO_SECTION: /
 :EXPORT_FILE_NAME: projects
 :END:
-- dotemacs
-- magit-git-toolbelt
+- [[https://github.com/jonathanchu/dotemacs][dotemacs]]
+- [[https://github.com/jonathanchu/magit-git-toolbelt][magit-git-toolbelt]]
 - magit-git-plumbing
-- atom-one-dark-theme
+- [[https://github.com/jonathanchu/atom-one-dark-theme][atom-one-dark-theme]]
 - emacs-horizon-theme
-- emacs-powerline (deprecated)
+- [[https://github.com/jonathanchu/emacs-powerline][emacs-powerline]] (deprecated)
 
 * About
 :PROPERTIES:
