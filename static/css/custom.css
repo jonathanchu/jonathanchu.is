@@ -30,3 +30,9 @@ pre code,
   border: none;
   font-size: 100%;
 }
+
+.content a,
+.list ul li .title,
+.centered .about ul li a {
+  font-weight: 400;
+}
