@@ -650,21 +650,26 @@ These are my notes as I go through the book [[https://www.braveclojure.com/][Clo
 :END:
 Hello! My name is Jonathan Chu and this is my personal website. I'm a
 software engineer currently living in New Jersey with a passion for
-Python web development. This site is intended to be a place to share
+building web-based products and tools. This site is a place to share
 the things I've learned along the way.
 
-In late 2010, I founded 3atmospheres, a web development shop based in
-New York, where I consulted and worked with a variety of agencies,
-small businesses, and startups in New York.  I've been a remote
-engineer since 2011.
+I'm currently an Engineering Manager at IBM, and previously at [[https://www.simplehealth.com][Simple
+Health]], [[https://www.gitprime.com][GitPrime]], and [[https://www.yesgraph.com][YesGraph]]. In late 2010, I founded [[https://www.3atmospheres.com][3atmospheres]],
+a web development agency based in New York, where I consulted and
+worked with a variety of agencies, small businesses, and startups in
+New York.
+
+I'm passionate about all things Emacs, functional languages, and
+building tools to enhance engineer productivity. I have experience
+working across the entire technology stack - whether it be data
+modeling, backend, frontend, and system design and architecture.
 
 Here are some other places you can find me on the web:
 
--  [Twitter](https://twitter.com/jonathanchu)
--  [GitHub](https://github.com/jonathanchu)
--  [Instagram](https://instagram.com/jonathanchu/)
--  [Flickr](https://www.flickr.com/photos/jonnychu/)
--  [LinkedIn](https://www.linkedin.com/in/jonathanchu13)
--  [Keybase](https://keybase.io/jonathanchu)
+- [[https://www.linkedin.com/in/jonathanchu13/][LinkedIn]]
+- [[https://github.com/jonathanchu][GitHub]]
+- [[https://twitter.com/jonathanchu][Twitter]]
+- [[https://instagram.com/jonathanchu/][Instagram]]
+- [[https://keybase.io/jonathanchu][Keybase]]
 
-You can email me anytime at [me@jonathanchu.is](mailto:me@jonathanchu.is).
+You can email me anytime at [[mailto:me@jonathanchu.is][me@jonathanchu.is]].
