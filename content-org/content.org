@@ -638,9 +638,7 @@ These are my notes as I go through the book [[https://www.braveclojure.com/][Clo
 :END:
 - [[https://github.com/jonathanchu/dotemacs][dotemacs]]
 - [[https://github.com/jonathanchu/magit-git-toolbelt][magit-git-toolbelt]]
-- magit-git-plumbing
 - [[https://github.com/jonathanchu/atom-one-dark-theme][atom-one-dark-theme]]
-- emacs-horizon-theme
 - [[https://github.com/jonathanchu/emacs-powerline][emacs-powerline]] (deprecated)
 
 * About
