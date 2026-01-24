@@ -2,7 +2,7 @@
 title = "Leiningen Basics"
 author = ["Jonathan Chu"]
 date = 2019-08-15T00:00:00-04:00
-draft = false
+draft = true
 +++
 
 For Mac OS X, you can install `leiningen` via `homebrew`:

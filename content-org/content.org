@@ -552,7 +552,7 @@ To remove Java (if no longer needed):
 brew uninstall openjdk
 #+end_src
 
-** Leiningen Basics
+** TODO Leiningen Basics
 :PROPERTIES:
 :EXPORT_DATE: 2019-08-15T00:00:00-04:00
 :EXPORT_FILE_NAME: leiningen-basics
@@ -607,7 +607,7 @@ Oops, we slurped in the =4= by accident!  Let's unslurp it by barfing it out.
 (def process-bags
      (mapping heavy-label))
 #+END_SRC
-** Clojure Basics
+** TODO Clojure Basics
 :PROPERTIES:
 :EXPORT_DATE: 2019-08-16T00:00:00-04:00
 :EXPORT_FILE_NAME: clojure-basics

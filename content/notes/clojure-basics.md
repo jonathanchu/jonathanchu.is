@@ -2,7 +2,7 @@
 title = "Clojure Basics"
 author = ["Jonathan Chu"]
 date = 2019-08-16T00:00:00-04:00
-draft = false
+draft = true
 +++
 
 These are my notes as I go through the book [Clojure for the Brave and True](https://www.braveclojure.com/)
