@@ -27,7 +27,7 @@ Since this is a Hugo site, you can run this locally with this command:
 hugo server -D
 #+END_SRC
 
-After making some changes to `content-org/content.org`, you can export all valid Hugo subtrees with:
+After making some changes to ~content-org/content.org~, you can export all valid Hugo subtrees with:
 
 @@html:<kbd>@@C-c C-e H A@@html:</kbd>@@
 
