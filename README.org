@@ -19,6 +19,28 @@ In Emacs, install ox-hugo and configure in your init.el config by following the 
 - https://ox-hugo.scripter.co/#installation
 - https://ox-hugo.scripter.co/#usage
 
+** Updating the theme
+
+The [[https://github.com/luizdepra/hugo-coder][hugo-coder]] theme is installed as a Hugo module. To check if a newer version is available:
+
+#+BEGIN_SRC shell
+go list -m -u all
+#+END_SRC
+
+If an update is available, it will appear in brackets after the current version, e.g. ~[v0.0.0-20260115...]~. No brackets means you're on the latest.
+
+To update all modules:
+
+#+BEGIN_SRC shell
+hugo mod get -u
+#+END_SRC
+
+To update a specific module, specify its path (e.g. the theme):
+
+#+BEGIN_SRC shell
+hugo mod get -u github.com/luizdepra/hugo-coder
+#+END_SRC
+
 ** Local development
 
 Since this is a Hugo site, you can run this locally with this command:
