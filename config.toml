@@ -1,7 +1,6 @@
 baseURL = "https://jonathanchu.is"
 languageCode = "en-us"
 title = "jonathanchu.is"
-googleAnalytics = "UA-61541020-1"
 
 canonifyURLs = true
 
