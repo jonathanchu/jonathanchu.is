@@ -32,6 +32,8 @@ canonifyURLs = true
     # Git Commit in Footer, uncomment the line below to enable it.
     # commit = "https://github.com/jonathanchu/dotemacs/tree/"
 
+    colorScheme = "auto"
+
     rtl = false
 
     # Use inverted colors

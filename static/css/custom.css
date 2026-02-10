@@ -1,11 +1,14 @@
 body {
   font-size: 1.8em;
-  background-color: #FAFAFA;
   font-weight: 400;
 }
 
+body.colorscheme-light {
+  background-color: #FAFAFA;
+}
+
 /* Inline code */
-code {
+.colorscheme-light code {
   background-color: rgba(175, 184, 193, 0.2) !important;
   border-radius: 6px;
   padding: 0.2em 0.4em;
@@ -13,11 +16,28 @@ code {
   border: none;
 }
 
+.colorscheme-dark code {
+  background-color: rgba(110, 118, 129, 0.4) !important;
+  border-radius: 6px;
+  padding: 0.2em 0.4em;
+  font-size: 85%;
+  border: none;
+}
+
 /* Code blocks */
-pre,
-.highlight pre {
+.colorscheme-light pre,
+.colorscheme-light .highlight pre {
   background-color: #f6f8fa !important;
   border: 1px solid #d0d7de;
+  border-radius: 6px;
+  padding: 16px;
+  overflow: auto;
+}
+
+.colorscheme-dark pre,
+.colorscheme-dark .highlight pre {
+  background-color: #161b22 !important;
+  border: 1px solid #30363d;
   border-radius: 6px;
   padding: 16px;
   overflow: auto;
