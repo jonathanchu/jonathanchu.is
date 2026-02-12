@@ -760,6 +760,303 @@ Oops, we slurped in the =4= by accident!  Let's unslurp it by barfing it out.
 (def process-bags
      (mapping heavy-label))
 #+END_SRC
+** TODO Emacs Lisp Basics
+:PROPERTIES:
+:EXPORT_DATE: 2026-02-11T00:00:00-05:00
+:EXPORT_FILE_NAME: emacs-lisp-basics
+:EXPORT_HUGO_CODE_FENCE: t
+:END:
+
+Must-know Emacs Lisp functions to practice and internalize. These are the building blocks for writing your own commands, customizing Emacs, and reading other people's configs.
+
+*** Variables & Scope
+**** =setq=
+
+Set the value of a variable.
+
+#+BEGIN_SRC emacs-lisp
+  (setq my-name "Jonathan")
+  (setq x 1 y 2 z 3) ;; set multiple at once
+  (message "x: %d" x) ;; format %d for number
+  (message "y: %s" y) ;; format %s for any character
+  (message "%d" z)
+#+END_SRC
+
+#+RESULTS:
+: 3
+
+**** =let= / =let*=
+
+Bind local variables. =let*= allows later bindings to reference earlier ones.
+
+#+BEGIN_SRC emacs-lisp
+  ;; all bindings are evaluated in parallel
+  ;; x and y do not know about each other
+  (let ((x 10)
+        (y 20))
+    (+ x y)) ;; => 30
+
+  ;; bindings are evaluated sequentially
+  (let* ((x 10)
+         (y (* x 2)))  ;; without let*, this would be an error
+    y) ;; => 20
+#+END_SRC
+
+**** =defvar= / =defcustom=
+
+Define a variable. =defvar= won't overwrite an existing value and is intended for internal state. =defcustom= creates a user-customizable variable -- something they can configure later.
+
+#+BEGIN_SRC emacs-lisp
+  (defvar my-default-directory "~/projects"
+    "Default directory for projects.")
+
+  (defcustom my-line-spacing 0.1
+    "Line spacing for my setup."
+    :type 'float
+    :group 'my-config)
+#+END_SRC
+
+*** Functions
+**** =defun=
+
+Define a named function.
+
+#+BEGIN_SRC emacs-lisp
+  (defun greet (name)
+    "Greet someone by NAME."
+    (message "Hello, %s!" name))
+
+  (greet "world") ;; => "Hello, world!"
+
+  (defun poke (thing)
+    "Poke a THING."
+    (message "Poke, %s!" thing))
+
+  (poke "bear") ;; => "Poke, bear!"
+#+END_SRC
+
+#+RESULTS:
+: Poke, bear!
+
+**** =lambda=
+
+Create an anonymous function.
+
+#+BEGIN_SRC emacs-lisp
+  (mapcar (lambda (x) (* x x)) '(1 2 3 4)) ;; => (1 4 9 16)
+#+END_SRC
+
+#+RESULTS:
+| 1 | 4 | 9 | 16 |
+
+**** =interactive=
+Make a function callable via =M-x=.
+#+BEGIN_SRC emacs-lisp
+(defun insert-current-date ()
+  "Insert today's date at point."
+  (interactive)
+  (insert (format-time-string "%Y-%m-%d")))
+#+END_SRC
+**** =funcall= / =apply=
+
+Call a function stored in a variable. =apply= spreads a list as arguments.
+
+#+BEGIN_SRC emacs-lisp
+  (funcall #'+ 1 2 3) ;; => 6
+  (apply #'+ '(1 2 3)) ;; => 6
+#+END_SRC
+
+#+RESULTS:
+: 6
+
+*** Lists & Cons Cells
+**** =car= / =cdr= / =cons=
+=car= returns the first element, =cdr= returns the rest, =cons= constructs a new cons cell.
+#+BEGIN_SRC emacs-lisp
+(car '(a b c))  ;; => a
+(cdr '(a b c))  ;; => (b c)
+(cons 'a '(b c)) ;; => (a b c)
+#+END_SRC
+**** =list= / =append=
+=list= creates a new list. =append= concatenates lists.
+#+BEGIN_SRC emacs-lisp
+(list 1 2 3)         ;; => (1 2 3)
+(append '(1 2) '(3 4)) ;; => (1 2 3 4)
+#+END_SRC
+**** =nth= / =length=
+=nth= returns the element at index n (0-based). =length= returns the list length.
+#+BEGIN_SRC emacs-lisp
+(nth 0 '(a b c))    ;; => a
+(nth 2 '(a b c))    ;; => c
+(length '(a b c))   ;; => 3
+#+END_SRC
+**** =push= / =pop=
+=push= adds to the front of a list (mutates). =pop= removes and returns the first element.
+#+BEGIN_SRC emacs-lisp
+(setq my-list '(b c))
+(push 'a my-list) ;; my-list is now (a b c)
+(pop my-list)     ;; => a, my-list is now (b c)
+#+END_SRC
+**** =assoc= / =alist-get=
+Look up a key in an association list.
+#+BEGIN_SRC emacs-lisp
+(setq my-alist '((name . "Jonathan") (editor . "Emacs")))
+(assoc 'name my-alist)      ;; => (name . "Jonathan")
+(alist-get 'name my-alist)  ;; => "Jonathan"
+#+END_SRC
+*** Predicates
+**** Type checking
+#+BEGIN_SRC emacs-lisp
+(numberp 42)     ;; => t
+(stringp "hello") ;; => t
+(listp '(1 2))   ;; => t
+(symbolp 'foo)   ;; => t
+(functionp #'+)  ;; => t
+(null nil)       ;; => t
+(null '())       ;; => t
+#+END_SRC
+**** Equality
+#+BEGIN_SRC emacs-lisp
+(eq 'foo 'foo)          ;; => t  (same object / symbol)
+(equal '(1 2) '(1 2))   ;; => t  (structural equality)
+(string= "abc" "abc")   ;; => t  (string comparison)
+(= 1 1.0)               ;; => t  (numeric equality)
+#+END_SRC
+*** Control Flow
+**** =if= / =when= / =unless=
+#+BEGIN_SRC emacs-lisp
+(if (> 3 2)
+    "yes"    ;; then
+  "no")      ;; else
+
+(when (> 3 2)
+  (message "this runs") ;; implicit progn, no else branch
+  "yes")
+
+(unless (> 2 3)
+  (message "2 is not greater than 3")
+  "correct")
+#+END_SRC
+**** =cond=
+Multi-branch conditional.
+#+BEGIN_SRC emacs-lisp
+(defun describe-number (n)
+  (cond
+   ((< n 0) "negative")
+   ((= n 0) "zero")
+   ((< n 10) "small")
+   (t "big")))
+#+END_SRC
+**** =progn=
+Evaluate multiple forms, return the last one.
+#+BEGIN_SRC emacs-lisp
+(progn
+  (setq x 1)
+  (setq y 2)
+  (+ x y)) ;; => 3
+#+END_SRC
+*** Iteration
+**** =dolist= / =dotimes=
+#+BEGIN_SRC emacs-lisp
+(dolist (item '("a" "b" "c"))
+  (message "Item: %s" item))
+
+(dotimes (i 5)
+  (message "Count: %d" i)) ;; 0 through 4
+#+END_SRC
+**** =mapcar= / =mapc=
+=mapcar= applies a function to each element and collects results. =mapc= does the same but for side effects (returns the original list).
+#+BEGIN_SRC emacs-lisp
+(mapcar #'upcase '("hello" "world")) ;; => ("HELLO" "WORLD")
+(mapcar #'1+ '(1 2 3))              ;; => (2 3 4)
+#+END_SRC
+**** =seq-filter= / =seq-reduce=
+#+BEGIN_SRC emacs-lisp
+(seq-filter #'cl-evenp '(1 2 3 4 5 6)) ;; => (2 4 6)
+(seq-reduce #'+ '(1 2 3 4) 0)          ;; => 10
+#+END_SRC
+*** Strings
+**** =concat= / =format=
+#+BEGIN_SRC emacs-lisp
+(concat "Hello" ", " "world!") ;; => "Hello, world!"
+(format "Name: %s, Age: %d" "Jonathan" 30) ;; => "Name: Jonathan, Age: 30"
+#+END_SRC
+**** =substring= / =split-string= / =string-join=
+#+BEGIN_SRC emacs-lisp
+(substring "Hello, world!" 0 5) ;; => "Hello"
+(split-string "a:b:c" ":")      ;; => ("a" "b" "c")
+(string-join '("a" "b" "c") "-") ;; => "a-b-c"
+#+END_SRC
+**** =string-match= / =replace-regexp-in-string=
+#+BEGIN_SRC emacs-lisp
+(string-match "o+" "foobar") ;; => 1 (index of match)
+(replace-regexp-in-string "[0-9]+" "N" "foo123bar456") ;; => "fooNbarN"
+#+END_SRC
+**** =string-prefix-p= / =string-suffix-p= / =string-trim=
+#+BEGIN_SRC emacs-lisp
+(string-prefix-p "foo" "foobar") ;; => t
+(string-suffix-p ".el" "init.el") ;; => t
+(string-trim "  hello  ")        ;; => "hello"
+#+END_SRC
+*** Buffer Operations
+**** =point= / =goto-char=
+=point= returns cursor position. =goto-char= moves to a position.
+#+BEGIN_SRC emacs-lisp
+(point)              ;; => current cursor position (integer)
+(point-min)          ;; => 1 (beginning of buffer)
+(point-max)          ;; => end of buffer
+(goto-char (point-min)) ;; move to beginning
+#+END_SRC
+**** =insert= / =delete-region= / =buffer-substring=
+#+BEGIN_SRC emacs-lisp
+(insert "some text")
+(delete-region (point-min) (point-max)) ;; delete everything
+(buffer-substring (point-min) (point-max)) ;; get buffer contents as string
+#+END_SRC
+**** =save-excursion=
+Run body, then restore point and current buffer.
+#+BEGIN_SRC emacs-lisp
+(save-excursion
+  (goto-char (point-min))
+  (insert "Header\n")) ;; point returns to where it was
+#+END_SRC
+**** =with-current-buffer=
+Execute body in the context of another buffer.
+#+BEGIN_SRC emacs-lisp
+(with-current-buffer "*Messages*"
+  (buffer-string)) ;; returns content of *Messages* buffer
+#+END_SRC
+*** Hooks & Advice
+**** =add-hook= / =remove-hook=
+Attach functions to run at specific events.
+#+BEGIN_SRC emacs-lisp
+(add-hook 'emacs-lisp-mode-hook #'eldoc-mode)
+(add-hook 'before-save-hook #'delete-trailing-whitespace)
+(remove-hook 'before-save-hook #'delete-trailing-whitespace)
+#+END_SRC
+**** =advice-add= / =advice-remove=
+Modify existing function behavior without changing the original.
+#+BEGIN_SRC emacs-lisp
+(defun my-before-save-message (&rest _)
+  (message "About to save!"))
+
+(advice-add 'save-buffer :before #'my-before-save-message)
+(advice-remove 'save-buffer #'my-before-save-message)
+#+END_SRC
+*** Common Patterns
+**** Reading user input
+#+BEGIN_SRC emacs-lisp
+(read-string "Enter your name: ")
+(completing-read "Choose: " '("option-a" "option-b" "option-c"))
+(y-or-n-p "Continue? ")
+#+END_SRC
+**** =message=
+Print to the =*Messages*= buffer (the elisp equivalent of =print= / =console.log=).
+#+BEGIN_SRC emacs-lisp
+(message "Hello!")
+(message "Value is: %s" some-var)
+(message "Number: %d, String: %s, S-expr: %S" 42 "foo" '(1 2 3))
+#+END_SRC
 ** TODO Clojure Basics
 :PROPERTIES:
 :EXPORT_DATE: 2019-08-16T00:00:00-04:00
