@@ -1,7 +1,7 @@
 +++
 title = "Emacs Lisp Basics"
 author = ["Jonathan Chu"]
-date = 2026-02-11T00:00:00-05:00
+date = 2026-02-24T00:00:00-05:00
 draft = false
 +++
 
