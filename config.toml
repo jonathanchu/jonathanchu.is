@@ -15,6 +15,7 @@ canonifyURLs = true
     style = "emacs"
     codeFences = true
     guessSyntax = true
+    noClasses = false
 
 [params]
     author = "Jonathan Chu"
@@ -43,7 +44,7 @@ canonifyURLs = true
     maxSeeAlsoItems = 5
 
     # Custom CSS
-    custom_css = ["/css/custom.css"]
+    customCSS = ["css/custom.css"]
 
     # Favicons
     favicon_32 = "images/favicon-32x32.ico"
