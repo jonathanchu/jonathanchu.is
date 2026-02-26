@@ -69,7 +69,7 @@ magit-gh
 
 When you list open PRs (`l`), a dedicated buffer opens showing PR number, title, author, and branch name. From that buffer you can checkout a PR with `RET` or `c`, open it in your browser with `v`, refresh the list with `g`, or close the buffer with `q`.
 
-{{< figure src="https://raw.githubusercontent.com/jonathanchu/magit-gh/refs/heads/main/screenshots/20260203_magit_gh_demo.gif" >}}
+{{< figure src="https://raw.githubusercontent.com/jonathanchu/magit-gh/refs/heads/main/screenshots/20260221_magit_gh_demo.gif" >}}
 
 If you don't like the `,` key binding, you can set a custom one. Note that the variable must be set **before** the package loads so it needs to be in the init section:
 
