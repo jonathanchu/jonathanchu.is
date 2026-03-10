@@ -1216,6 +1216,7 @@ These are my notes as I go through the book [[https://www.braveclojure.com/][Clo
 :EXPORT_FILE_NAME: projects
 :END:
 - [[https://github.com/jonathanchu/dotemacs][dotemacs]]
+- [[https://github.com/jonathanchu/magit-gh][magit-gh]]
 - [[https://github.com/jonathanchu/magit-git-toolbelt][magit-git-toolbelt]]
 - [[https://github.com/jonathanchu/atom-one-dark-theme][atom-one-dark-theme]]
 - [[https://github.com/jonathanchu/emacs-powerline][emacs-powerline]] (deprecated)
