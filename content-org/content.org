@@ -1247,6 +1247,7 @@ Here are some other places you can find me on the web:
 
 - [[https://www.linkedin.com/in/jonathanchu13/][LinkedIn]]
 - [[https://github.com/jonathanchu][GitHub]]
+- [[https://bsky.app/profile/jonathanchu.lol][Bluesky]]
 - [[https://twitter.com/jonathanchu][Twitter]]
 - [[https://instagram.com/jonathanchu/][Instagram]]
 - [[https://keybase.io/jonathanchu][Keybase]]

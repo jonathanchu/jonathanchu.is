@@ -24,6 +24,7 @@ Here are some other places you can find me on the web:
 
 -   [LinkedIn](https://www.linkedin.com/in/jonathanchu13/)
 -   [GitHub](https://github.com/jonathanchu)
+-   [Bluesky](https://bsky.app/profile/jonathanchu.lol)
 -   [Twitter](https://twitter.com/jonathanchu)
 -   [Instagram](https://instagram.com/jonathanchu/)
 -   [Keybase](https://keybase.io/jonathanchu)
