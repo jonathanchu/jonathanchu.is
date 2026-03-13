@@ -20,7 +20,7 @@ canonifyURLs = true
 [params]
     author = "Jonathan Chu"
     description = "Personal website of Jonathan Chu."
-    # keywords = "blog, developer, personal, jonathan chu"
+    keywords = "jonathan chu, engineer, engineering manager, emacs, clojure, deep learning, software engineering, IBM"
     info = "Engineering Manager at IBM. Currently studying deep learning, dabbling with Clojure and having fun with my emacs config."
     avatarurl = "images/me.jpg"
     footercontent = "ox-hugo."
