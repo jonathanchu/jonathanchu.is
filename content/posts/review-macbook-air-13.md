@@ -1,7 +1,7 @@
 +++
 date = 2011-01-10T00:00:00-04:00
 title = "Review: MacBook Air 13"
-description = ""
+description = "A developer's review of the 13\" MacBook Air as a primary machine, covering hardware build quality, performance, and the transition from a MacBook Pro."
 slug = "review-macbook-air-13"
 tags = ["apple", "macbook"]
 categories = ["reviews"]

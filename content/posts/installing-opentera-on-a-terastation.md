@@ -1,7 +1,7 @@
 +++
 date = 2012-05-27T00:00:00-04:00
 title = "Installing OpenTera on a TeraStation"
-description = ""
+description = "Step-by-step guide to installing OpenTera and Samba 3 on a Buffalo TeraStation to restore Mac OS X Lion file sharing compatibility."
 slug = "installing-opentera-on-a-terastation"
 tags = ["miscellaneous"]
 categories = ["miscellaneous"]

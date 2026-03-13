@@ -1,7 +1,7 @@
 +++
 date = 2015-06-09T00:00:00-04:00
 title = "Introducing Atom One Dark Theme for Emacs"
-description = ""
+description = "Introducing an Emacs color theme ported from Atom.io's One Dark syntax theme, available as an open source package on GitHub."
 slug = "atom-one-dark-theme-for-emacs"
 tags = ["emacs"]
 categories = ["emacs"]

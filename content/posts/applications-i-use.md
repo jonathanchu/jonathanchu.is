@@ -1,7 +1,7 @@
 +++
 date = 2012-03-02T00:00:00-04:00
 title = "Applications I Use"
-description = ""
+description = "A curated list of Mac OS X applications for development, productivity, design, and daily use, from Emacs and iTerm to Alfred and 1Password."
 slug = "applications-i-use"
 tags = ["macosx"]
 categories = ["miscellaneous"]

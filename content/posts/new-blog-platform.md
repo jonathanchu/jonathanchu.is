@@ -1,7 +1,7 @@
 +++
 date = 2011-01-18T00:00:00-04:00
 title = "New Blog Platform"
-description = ""
+description = "Why and how this blog switched from a custom Django app to Growl, a lightweight Python-based static site generator using Jinja2 and Markdown."
 slug = "new-blog-platform"
 tags = ["python"]
 categories = ["python"]

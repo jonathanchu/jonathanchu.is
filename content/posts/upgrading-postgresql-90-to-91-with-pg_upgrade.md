@@ -1,7 +1,7 @@
 +++
 date = 2012-06-19T00:00:00-04:00
 title = "Upgrading PostgreSQL 9.0 to 9.1 with pg_upgrade"
-description = ""
+description = "Step-by-step fix for upgrading PostgreSQL 9.0 to 9.1 on Homebrew using pg_upgrade to resolve incompatible data directory errors."
 slug = "upgrading-postgresql-90-to-91-with-pg_upgrade"
 tags = ["postgresql"]
 categories = ["databases"]

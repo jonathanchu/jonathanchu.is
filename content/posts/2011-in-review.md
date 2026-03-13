@@ -1,7 +1,7 @@
 +++
 date = 2012-01-21T00:00:00-04:00
 title = "2011 In Review"
-description = ""
+description = "A personal year-in-review covering freelancing, launching a company, attending PyCon and DjangoCon, and getting engaged."
 slug = "2011-in-review"
 tags = []
 categories = ["miscellaneous"]

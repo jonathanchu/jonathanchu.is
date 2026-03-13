@@ -1,7 +1,7 @@
 +++
 date = 2013-07-10T00:00:00-04:00
 title = "Org-Mode and MobileOrg Installation and Config"
-description = ""
+description = "How to set up MobileOrg with Emacs Org-Mode and Dropbox to sync notes, TODOs, and org files to your iOS device."
 slug = "org-mode-and-mobileorg-installation-and-config"
 tags = ["mobileorg", "org-mode", "emacs"]
 categories = ["emacs"]

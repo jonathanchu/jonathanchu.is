@@ -1,7 +1,7 @@
 +++
 date = 2014-04-07T00:00:00-04:00
 title = "Keyboards"
-description = ""
+description = "Reviews of seven mechanical and ergonomic keyboards, from the Microsoft Natural 4000 to the Realforce 104U, with pros and cons for each."
 slug = "keyboards"
 tags = ["keyboards"]
 categories = ["reviews"]

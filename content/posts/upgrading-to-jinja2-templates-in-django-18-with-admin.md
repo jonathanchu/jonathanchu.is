@@ -1,7 +1,7 @@
 +++
 date = 2015-04-26T00:00:00-04:00
 title = "Upgrading to Jinja2 Templates in Django 1.8 With Admin"
-description = ""
+description = "How to configure Django 1.8 to use Jinja2 templates alongside the default Django template engine so the admin still works."
 slug = "upgrading-jinja2-templates-django-18-with-admin"
 tags = ["python", "django"]
 categories = ["python"]

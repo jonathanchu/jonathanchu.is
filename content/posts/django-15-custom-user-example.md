@@ -1,7 +1,7 @@
 +++
 date = 2013-09-23T00:00:00-04:00
 title = "Django 1.5 Custom User Example"
-description = ""
+description = "A walkthrough of Django 1.5's configurable custom user model with a complete example project on GitHub for customizing auth.User."
 slug = "django-15-custom-user-example"
 tags = ["python", "django"]
 categories = ["python"]

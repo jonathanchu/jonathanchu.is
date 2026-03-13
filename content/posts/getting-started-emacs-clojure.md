@@ -1,7 +1,7 @@
 +++
 date = 2015-06-13T00:00:00-04:00
 title = "Getting Started with Emacs and Clojure on OS X"
-description = ""
+description = "A beginner's guide to setting up Clojure development with Emacs on OS X, covering Homebrew, Java, Leiningen, and CIDER installation."
 slug = "getting-started-emacs-clojure-mac-osx"
 tags = ["emacs", "clojure"]
 categories = ["emacs"]

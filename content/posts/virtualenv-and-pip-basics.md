@@ -1,7 +1,7 @@
 +++
 date = 2011-02-09T00:00:00-04:00
 title = "Virtualenv and pip Basics"
-description = ""
+description = "A beginner's guide to using virtualenv, virtualenvwrapper, and pip to create isolated Python development environments."
 slug = "virtualenv-and-pip-basics"
 tags = ["python", "virtualenv", "pip"]
 categories = ["python"]

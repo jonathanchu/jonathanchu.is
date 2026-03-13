@@ -1,7 +1,7 @@
 +++
 date = 2013-08-15T00:00:00-04:00
 title = "Setting Up Deft Mode in Emacs with Org-Mode"
-description = ""
+description = "How to set up Deft mode in Emacs for fast, Notational Velocity-style searching and note-taking with Org-Mode files."
 slug = "setting-up-deft-mode-in-emacs-with-org-mode"
 tags = ["emacs", "org-mode", "deft", "notes"]
 categories = ["emacs"]
