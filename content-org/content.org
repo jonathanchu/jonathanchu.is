@@ -1317,6 +1317,7 @@ These are my notes as I go through the book [[https://www.braveclojure.com/][Clo
 :EXPORT_HUGO_SECTION: /
 :EXPORT_FILE_NAME: projects
 :END:
+- [[https://github.com/jonathanchu/docket][docket]]
 - [[https://github.com/jonathanchu/grove][grove.el]]
 - [[https://windowcraft.app][windowcraft.app]]
 - [[https://github.com/jonathanchu/magit-gh][magit-gh]]
