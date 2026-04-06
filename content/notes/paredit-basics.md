@@ -48,7 +48,7 @@ Oops, we slurped in the `4` by accident!  Let's unslurp it by barfing it out.
      (comp
       (mapcatting unbundled-pallet)
       (filtering non-food?)|
-      (mapping heavy-label))pp)
+      (mapping heavy-label)))
 ;; Keybinding M-<up arrow>
 (def process-bags
      (mapping heavy-label))
