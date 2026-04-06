@@ -1,7 +1,9 @@
 +++
 title = "New blog again"
 author = ["Jonathan Chu"]
-description = "\"“"
+description = """
+  "“
+  """
 date = 2020-07-12T00:00:00-04:00
 draft = true
 +++

@@ -50,7 +50,7 @@ At the same time, I wanted it to be **batteries included**. One of the barriers 
 
 Grove requires Emacs 29.1+ and [ripgrep](https://github.com/BurnerLee/ripgrep). [Graphviz](https://graphviz.org/) is optional for the graph view, and [Consult](https://github.com/minad/consult) is optional for enhanced search.
 
-Grove is currently in review for [MELPA](https://melpa.org/). Once it lands, you'll be able to install it with:
+Grove is currently in review for [MELPA](https://melpa.org/). Once it is approved and merged, you'll be able to install it with:
 
 `M-x package-install RET grove RET`
 
@@ -103,8 +103,6 @@ The file tree sidebar tracks your current file, and you can expand/collapse dire
 
 ## What's next {#what-s-next}
 
-Grove is in the [MELPA review process](https://github.com/melpa/melpa/pulls) now, so it should be available there soon. In the meantime, the source is on [GitHub](https://github.com/jonathanchu/grove) and manual installation works fine.
+I have a few things I'd like to explore next -- note templates, tag autocomplete, and some refinements to the graph view to make it interactive. These are definitely nice-to-haves, but I would only want more time to think about some of these more thoughtfully as complexity increases with features like interactive graph views. But the core is solid and I've been using it daily as my primary note-taking system, which has been the real test.
 
-I have a few things I'd like to explore next -- better note templates, tag autocomplete, and some refinements to the graph view. But the core is solid and I've been using it daily as my primary note-taking system, which is the real test.
-
-If you've been looking for a note-taking setup in Emacs that doesn't require a PhD in configuration, give Grove a try! Feedback and contributions are always welcome.
+If you've been looking for a note-taking setup in Emacs that doesn't require much configuration or revamping your notes workflows, give Grove a try! Feedback and contributions are always welcome.

@@ -1,7 +1,9 @@
 +++
 title = "Dark Mode Toggle for iTerm and Emacs"
 author = ["Jonathan Chu"]
-description = "\"How to do dark and light mode toggle with iTerm and Emacs“"
+description = """
+  "How to do dark and light mode toggle with iTerm and Emacs“
+  """
 date = 2020-07-12T00:00:00-04:00
 tags = ["emacs"]
 draft = false
@@ -33,7 +35,7 @@ fi
 
 Toggle to a dark iTerm color scheme using AppleScript and iTerm's Python API:
 
-Filename: iterm2\_dark\_theme.py
+Filename: iterm2_dark_theme.py
 
 <a id="code-snippet--iterm2-dark-theme.py"></a>
 ```python
