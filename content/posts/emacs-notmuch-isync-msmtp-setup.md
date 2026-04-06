@@ -1,7 +1,9 @@
 +++
 title = "Emacs, Notmuch, isync, and msmtp Setup"
 author = ["Jonathan Chu"]
-description = "\"How to setup notmuch, isync, and msmtp with Emacs.“"
+description = """
+  "How to setup notmuch, isync, and msmtp with Emacs.“
+  """
 date = 2020-06-23T00:00:00-04:00
 tags = ["emacs"]
 draft = false
@@ -100,13 +102,13 @@ When you have entered your email information, in your Emacs configuration, you c
 
 Then, you can run `m-x notmuch-hello` and you will be greeted with the `notmuch` starting screen.
 
-<a id="orged7a5f4"></a>
+<a id="figure--fig:notmuch-hello"></a>
 
-{{< figure src="/images/notmuch-hello.png" caption="Figure 1: m-x notmuch-hello" >}}
+{{< figure src="/images/notmuch-hello.png" caption="<span class=\"figure-number\">Figure 1: </span>m-x notmuch-hello" >}}
 
-<a id="orgd900945"></a>
+<a id="figure--fig:notmuch unread"></a>
 
-{{< figure src="/images/notmuch-unread.png" caption="Figure 2: notmuch unread" >}}
+{{< figure src="/images/notmuch-unread.png" caption="<span class=\"figure-number\">Figure 2: </span>notmuch unread" >}}
 
 
 ## Sending email {#sending-email}
