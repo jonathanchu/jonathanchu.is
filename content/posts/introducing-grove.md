@@ -100,7 +100,7 @@ grove
 └── C-c v g  Graph view
 ```
 
-The file tree sidebar tracks your current file, and you can expand/collapse directories with `TAB`. Quick capture (`C-c v c`) opens a buffer where you type your note -- the first line becomes the filename -- and it's saved directly to your inbox for later triage.
+The file tree sidebar tracks your current file, and you can expand/collapse directories with `TAB`. Quick capture (`C-c v c`) opens a buffer where you type your note - the first line becomes the filename and it's saved directly to your inbox for later triage.
 
 
 ## What's next {#what-s-next}
