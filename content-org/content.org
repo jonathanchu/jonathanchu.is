@@ -6,7 +6,7 @@ Header
 :END:
 ** DRAFT Introducing grove.el                                  :emacs:org_mode:notes:
 :PROPERTIES:
-:EXPORT_DATE: 2026-04-30T00:00:00-04:00
+:EXPORT_DATE: 2026-05-01T00:00:00-04:00
 :EXPORT_DESCRIPTION: "Introducing grove.el, an Obsidian-like note-taking mode for Emacs with a file tree, wikilinks, backlinks, and graph view"
 :EXPORT_FILE_NAME: introducing-grove
 :EXPORT_HUGO_DRAFT: true

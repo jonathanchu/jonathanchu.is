@@ -4,7 +4,7 @@ author = ["Jonathan Chu"]
 description = """
   "Introducing grove.el, an Obsidian-like note-taking mode for Emacs with a file tree, wikilinks, backlinks, and graph view"
   """
-date = 2026-04-30T00:00:00-04:00
+date = 2026-05-01T00:00:00-04:00
 tags = ["emacs", "org-mode", "notes"]
 draft = true
 +++
