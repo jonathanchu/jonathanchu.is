@@ -1,12 +1,12 @@
 +++
-title = "DRAFT Introducing grove.el"
+title = "Introducing grove.el"
 author = ["Jonathan Chu"]
 description = """
   "Introducing grove.el, an Obsidian-like note-taking mode for Emacs with a file tree, wikilinks, backlinks, and graph view"
   """
 date = 2026-05-03T00:00:00-04:00
 tags = ["emacs", "org-mode", "notes"]
-draft = true
+draft = false
 +++
 
 I've been looking for (or rather, chasing!) the right note-taking workflow in Emacs for over a decade now. Back in 2013, I wrote about [setting up Deft mode with Org-Mode](/posts/setting-up-deft-mode-in-emacs-with-org-mode/) and it was my attempt at bringing that Notational Velocity-style simplicity into Emacs, and I used it for a long time. I genuinely liked Deft, but it's no longer actively maintained, and the same goes for [Zetteldeft](https://github.com/EFLS/zetteldeft) which was built on top of it as an alternative successor. Since then, I've tried the other major players -- [org-roam](https://www.orgroam.com/), [Denote](https://protesilaos.com/emacs/denote), and a handful of others. They're all extremely impressive and comprehensive packages that do more than I could ever ask for, but none of them ever quite stuck for me. I'd set one up and more or less force myself to use it for a few weeks, and then quietly drift back to a loose pile of org files in a directory. And on my darker days, Apple Notes.
